@@ -1,0 +1,176 @@
+{
+  "timestamp": "2026-10-06T20:51:00.334Z",
+  "sourceSha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+  "metadata": "07_metadata.json + refined_routes.json",
+  "method": "Actual bounded first-person controller follows source-authored boardwalk spine samples; no teleport between waypoints",
+  "results": [
+    {
+      "id": "STILT_NORTHWEST_SPINE_1",
+      "status": "passed",
+      "reachedPoints": 37,
+      "totalPoints": 37,
+      "travelMetres": 97.66000000000129
+    },
+    {
+      "id": "STILT_NORTHWEST_SPINE_2",
+      "status": "passed",
+      "reachedPoints": 15,
+      "totalPoints": 15,
+      "travelMetres": 37.6909274746648
+    },
+    {
+      "id": "STILT_NORTH_SPINE_1",
+      "status": "passed",
+      "reachedPoints": 68,
+      "totalPoints": 68,
+      "travelMetres": 136.86333333333317
+    },
+    {
+      "id": "STILT_WEST_SPINE_1",
+      "status": "passed",
+      "reachedPoints": 62,
+      "totalPoints": 62,
+      "travelMetres": 124.41607773699302
+    },
+    {
+      "id": "STILT_WEST_SPINE_2",
+      "status": "passed",
+      "reachedPoints": 14,
+      "totalPoints": 14,
+      "travelMetres": 33.69333333333404
+    },
+    {
+      "id": "STILT_LAGOON_SPINE_1",
+      "status": "passed",
+      "reachedPoints": 46,
+      "totalPoints": 46,
+      "travelMetres": 94.17666666666761
+    },
+    {
+      "id": "STILT_LAGOON_SPINE_2",
+      "status": "passed",
+      "reachedPoints": 90,
+      "totalPoints": 90,
+      "travelMetres": 243.89666666666517
+    },
+    {
+      "id": "STILT_LAGOON_SPINE_3",
+      "status": "passed",
+      "reachedPoints": 18,
+      "totalPoints": 18,
+      "travelMetres": 46.929999999999524
+    },
+    {
+      "id": "STILT_CORAL_SPINE_1",
+      "status": "passed",
+      "reachedPoints": 40,
+      "totalPoints": 40,
+      "travelMetres": 104.94333333332669
+    },
+    {
+      "id": "STILT_CORAL_SPINE_2",
+      "status": "passed",
+      "reachedPoints": 21,
+      "totalPoints": 21,
+      "travelMetres": 51.87000000000136
+    },
+    {
+      "id": "STILT_CORAL_SPINE_3",
+      "status": "passed",
+      "reachedPoints": 62,
+      "totalPoints": 62,
+      "travelMetres": 143.0700000000052
+    },
+    {
+      "id": "STILT_CORAL_NORTH_SPINE_1",
+      "status": "passed",
+      "reachedPoints": 40,
+      "totalPoints": 40,
+      "travelMetres": 107.47666666666827
+    },
+    {
+      "id": "STILT_CORAL_NORTH_SPINE_2",
+      "status": "passed",
+      "reachedPoints": 18,
+      "totalPoints": 18,
+      "travelMetres": 46.233333333333526
+    },
+    {
+      "id": "STILT_CORAL_NORTH_SPINE_3",
+      "status": "passed",
+      "reachedPoints": 22,
+      "totalPoints": 22,
+      "travelMetres": 55.537445321133816
+    },
+    {
+      "id": "Palm_Crescent_public_approach",
+      "status": "passed",
+      "reachedPoints": 4,
+      "totalPoints": 4,
+      "travelMetres": 11.273333333333557
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_05",
+      "status": "passed",
+      "reachedPoints": 4,
+      "totalPoints": 4,
+      "travelMetres": 8.043333333333878
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_06",
+      "status": "passed",
+      "reachedPoints": 5,
+      "totalPoints": 5,
+      "travelMetres": 9.310000000000619
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_07",
+      "status": "passed",
+      "reachedPoints": 8,
+      "totalPoints": 8,
+      "travelMetres": 17.79666666666624
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_08",
+      "status": "passed",
+      "reachedPoints": 2,
+      "totalPoints": 2,
+      "travelMetres": 0.4433333333331199
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_09",
+      "status": "passed",
+      "reachedPoints": 8,
+      "totalPoints": 8,
+      "travelMetres": 18.240000000004404
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_04",
+      "status": "passed",
+      "reachedPoints": 5,
+      "totalPoints": 5,
+      "travelMetres": 10.449999999999962
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_05",
+      "status": "passed",
+      "reachedPoints": 5,
+      "totalPoints": 5,
+      "travelMetres": 11.318051435465048
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_06",
+      "status": "passed",
+      "reachedPoints": 6,
+      "totalPoints": 6,
+      "travelMetres": 12.16000000000461
+    },
+    {
+      "id": "Porto_Parish_Forecourt",
+      "status": "passed",
+      "reachedPoints": 53,
+      "totalPoints": 53,
+      "travelMetres": 18.746666666666687
+    }
+  ]
+}

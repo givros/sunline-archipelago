@@ -1,0 +1,12 @@
+{
+  "method": "Only affected polygons are triangulated; exactly zero-area triangles are omitted. All positive triangles and vertex coordinates are preserved.",
+  "target_discovery": {
+    "mode": "Fresh scan of every unique mesh used by the current scene",
+    "meshes_scanned": 5435
+  },
+  "identified_target_meshes": 0,
+  "meshes_repaired": 0,
+  "triangles_removed": 0,
+  "source_scene_saved": false,
+  "records": []
+}

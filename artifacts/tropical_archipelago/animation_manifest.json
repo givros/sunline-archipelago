@@ -1,0 +1,444 @@
+{
+  "system": "Sunline operational coastal train shuttles",
+  "status": "implemented in Blender source keyframes",
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 8446,
+  "duration_seconds": 351.875,
+  "loop_boundary": "Last frame duplicates frame 1 exactly; playback loops frames 1 through end-1.",
+  "rail_gauge_m": 1.435,
+  "car_pitch_m": 19.0,
+  "geometry_unchanged": "Original vehicle meshes unchanged; 12 separate detailed articulated drawbar link meshes added using one shared geometry.",
+  "keyframe_interpolation": "LINEAR every 6 frames, plus exact endpoint",
+  "track_sampling": "First offset every route vertex by its central-difference normal times track_offset. Compute cumulative arc lengths of those offset vertices. All motion distances and19m car pitches use this actual track arc. Convert authored centerline head distance by its segment interpolation into the offset arc for frame1.",
+  "body_pose": "Use back/front local bogie positions \u22125.8/+5.5 (rear car \u22125.5/+5.8). Set centerArc=d+(back+front)/2. Solve halfSpan by22 bisections, starting low=5.65/high=5.65*1.04 and growing high by1.08 until the chord between sample(centerArc\u00b1halfSpan) is11.3m. Origin is chord midpoint\u2212normalizedChord*(back+front)/2; body yaw follows normalizedChord.",
+  "motion_mapping": "For stroke D, cruise speed v, ramp r: c=D/v-r; travel=2r+c. Forward distance: 0.5*v*(t-r/pi*sin(pi*t/r)) for t<r; v*r/2+v*(t-r) for r<=t<r+c; D-v*r/2+0.5*v*(q+r/pi*sin(pi*q/r)) for q=t-r-c in [0,r]. Travel forward, dwell 2s, travel backward, dwell 2s. Add initial phase, wrap modulo physical period; rescale runtime seconds by physical period / timeline duration.",
+  "runtime_matching": "Evaluate the same motion law and solved car/bogie poses. For exact Blender subframe equality, interpolate surrounding6-frame car world position/yaw AND bogie parent-local position/yaw separately, then compose car and pivot matrices. All trains use the shared maximum rounded timeline duration; each physical cycle is rescaled by its own physical_period_seconds/common duration.",
+  "trains": [
+    {
+      "id": "SUNLINE_0",
+      "route_id": "RAIL_MAIN",
+      "route_centerline_length_m": 1378.9730018415644,
+      "route_lane_length_m": 1373.027626804841,
+      "distance_space": "offset_track_arc",
+      "initial_head_distance": 549.7521947592207,
+      "phase_seconds": 63.666959301229426,
+      "motion": {
+        "minimum_head_distance": 91.0,
+        "maximum_head_distance": 1358.027626804841,
+        "stroke": 1267.027626804841,
+        "cruise_speed": 7.5,
+        "ramp_seconds": 5.0,
+        "cruise_seconds": 163.93701690731214,
+        "travel_seconds": 173.93701690731214,
+        "dwell_seconds": 2.0,
+        "physical_period_seconds": 351.8740338146243,
+        "car_pitch": 19.0,
+        "endpoint_margin": 15.0
+      },
+      "duration_seconds": 351.875,
+      "frame_start": 1,
+      "frame_end": 8446,
+      "keyframe_step": 6,
+      "keyframes_per_car": 1409,
+      "cars": [
+        {
+          "id": "TRAIN_CAR_0_0",
+          "car_index": 0,
+          "track_offset": -2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 550.6128287676905,
+          "initial_lane_distance": 549.7521947592207,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_0_0_REAR",
+            "front": "TRAIN_BOGIE_0_0_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_0_1",
+          "car_index": 1,
+          "track_offset": -2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 531.6128287676905,
+          "initial_lane_distance": 530.7521947592207,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_0_1_REAR",
+            "front": "TRAIN_BOGIE_0_1_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_0_2",
+          "car_index": 2,
+          "track_offset": -2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 512.6128287676905,
+          "initial_lane_distance": 511.75219475922074,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_0_2_REAR",
+            "front": "TRAIN_BOGIE_0_2_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_0_3",
+          "car_index": 3,
+          "track_offset": -2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 493.61282876769053,
+          "initial_lane_distance": 492.75219475922074,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_0_3_REAR",
+            "front": "TRAIN_BOGIE_0_3_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_0_4",
+          "car_index": 4,
+          "track_offset": -2.1,
+          "rear_bogie_mirror": true,
+          "authored_centerline_distance": 474.61282876769053,
+          "initial_lane_distance": 473.75219475922074,
+          "bogies": {
+            "front": "TRAIN_BOGIE_0_4_FRONT",
+            "rear": "TRAIN_BOGIE_0_4_REAR"
+          }
+        }
+      ],
+      "effective_peak_speed_m_s": 7.499979406350784
+    },
+    {
+      "id": "SUNLINE_1",
+      "route_id": "RAIL_MAIN",
+      "route_centerline_length_m": 1378.9730018415644,
+      "route_lane_length_m": 1384.918393924952,
+      "distance_space": "offset_track_arc",
+      "initial_head_distance": 1110.1813969990424,
+      "phase_seconds": 128.2575195998723,
+      "motion": {
+        "minimum_head_distance": 167.0,
+        "maximum_head_distance": 1369.918393924952,
+        "stroke": 1202.918393924952,
+        "cruise_speed": 7.5,
+        "ramp_seconds": 5.0,
+        "cruise_seconds": 155.38911918999358,
+        "travel_seconds": 165.38911918999358,
+        "dwell_seconds": 2.0,
+        "physical_period_seconds": 334.77823837998716,
+        "car_pitch": 19.0,
+        "endpoint_margin": 15.0
+      },
+      "duration_seconds": 351.875,
+      "frame_start": 1,
+      "frame_end": 8446,
+      "keyframe_step": 6,
+      "keyframes_per_car": 1409,
+      "cars": [
+        {
+          "id": "TRAIN_CAR_1_0",
+          "car_index": 0,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 1104.2074794979892,
+          "initial_lane_distance": 1110.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_0_REAR",
+            "front": "TRAIN_BOGIE_1_0_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_1",
+          "car_index": 1,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 1085.2074794979892,
+          "initial_lane_distance": 1091.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_1_REAR",
+            "front": "TRAIN_BOGIE_1_1_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_2",
+          "car_index": 2,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 1066.2074794979892,
+          "initial_lane_distance": 1072.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_2_REAR",
+            "front": "TRAIN_BOGIE_1_2_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_3",
+          "car_index": 3,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 1047.2074794979892,
+          "initial_lane_distance": 1053.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_3_REAR",
+            "front": "TRAIN_BOGIE_1_3_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_4",
+          "car_index": 4,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 1028.2074794979892,
+          "initial_lane_distance": 1034.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_4_REAR",
+            "front": "TRAIN_BOGIE_1_4_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_5",
+          "car_index": 5,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 1009.2074794979892,
+          "initial_lane_distance": 1015.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_5_REAR",
+            "front": "TRAIN_BOGIE_1_5_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_6",
+          "car_index": 6,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 990.2074794979892,
+          "initial_lane_distance": 996.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_6_REAR",
+            "front": "TRAIN_BOGIE_1_6_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_7",
+          "car_index": 7,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": false,
+          "authored_centerline_distance": 971.2074794979892,
+          "initial_lane_distance": 977.1813969990424,
+          "bogies": {
+            "rear": "TRAIN_BOGIE_1_7_REAR",
+            "front": "TRAIN_BOGIE_1_7_FRONT"
+          }
+        },
+        {
+          "id": "TRAIN_CAR_1_8",
+          "car_index": 8,
+          "track_offset": 2.1,
+          "rear_bogie_mirror": true,
+          "authored_centerline_distance": 952.2074794979892,
+          "initial_lane_distance": 958.1813969990424,
+          "bogies": {
+            "front": "TRAIN_BOGIE_1_8_FRONT",
+            "rear": "TRAIN_BOGIE_1_8_REAR"
+          }
+        }
+      ],
+      "effective_peak_speed_m_s": 7.135593002770597
+    }
+  ],
+  "dimensional_validation": {
+    "max_bogie_center_to_track_m": 4.3e-05,
+    "max_wheel_tread_to_nearest_rail_m": 0.047001,
+    "max_neighbor_coupler_center_gap_m": 1.053236,
+    "max_arc_pitch_error_m": 0.0,
+    "max_bogie_reparent_matrix_error": 6.1e-05,
+    "samples": 4294,
+    "notes": [
+      "Both bogies independently swivel; rigid body uses an exact11.3m solved support chord.",
+      "Rear asset bogie positions are mirrored; source and runtime use the mirrored support chord."
+    ],
+    "max_drawbar_endpoint_contact_error_m": 4.3e-05,
+    "wheel_contact_tolerance_m": 0.075,
+    "bogie_center_tolerance_m": 0.005,
+    "operational_contact_pass": true
+  },
+  "dynamic_root_count": 54,
+  "bogie_pivot_count": 28,
+  "drawbar_count": 12,
+  "drawbars": [
+    {
+      "id": "TRAIN_DRAWBAR_0_0",
+      "car_a": "TRAIN_CAR_0_0",
+      "car_b": "TRAIN_CAR_0_1"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_1",
+      "car_a": "TRAIN_CAR_0_1",
+      "car_b": "TRAIN_CAR_0_2"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_2",
+      "car_a": "TRAIN_CAR_0_2",
+      "car_b": "TRAIN_CAR_0_3"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_3",
+      "car_a": "TRAIN_CAR_0_3",
+      "car_b": "TRAIN_CAR_0_4"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_0",
+      "car_a": "TRAIN_CAR_1_0",
+      "car_b": "TRAIN_CAR_1_1"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_1",
+      "car_a": "TRAIN_CAR_1_1",
+      "car_b": "TRAIN_CAR_1_2"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_2",
+      "car_a": "TRAIN_CAR_1_2",
+      "car_b": "TRAIN_CAR_1_3"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_3",
+      "car_a": "TRAIN_CAR_1_3",
+      "car_b": "TRAIN_CAR_1_4"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_4",
+      "car_a": "TRAIN_CAR_1_4",
+      "car_b": "TRAIN_CAR_1_5"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_5",
+      "car_a": "TRAIN_CAR_1_5",
+      "car_b": "TRAIN_CAR_1_6"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_6",
+      "car_a": "TRAIN_CAR_1_6",
+      "car_b": "TRAIN_CAR_1_7"
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_7",
+      "car_a": "TRAIN_CAR_1_7",
+      "car_b": "TRAIN_CAR_1_8"
+    }
+  ],
+  "drawbar_motion": "Live source transform drivers use car-local coupling anchors A=[\u22129.27,0,.94], B=[9.27,0,.94]. World position=(A+B)/2, yaw=atan2(B.y\u2212A.y,B.x\u2212A.x), X scale=distance(A,B), Y/Z scale=1. Shared mesh endpoints are local X\u00b10.5. Runtime derives the same anchors from current interpolated car matrices; endpoints remain continuously connected at subframes.",
+  "bogie_pose": "For each rear/front support distance, position=offset track sample(supportDistance); yaw=atan2 of sample(supportDistance+.88)\u2212sample(supportDistance\u2212.88). Source pivots are children of car root with these world poses transformed into parent local coordinates. Runtime may export/animate all30 nodes as independent world roots while retaining pivot-local mesh matrices.",
+  "source_cars": [
+    {
+      "id": "TRAIN_CAR_0_0",
+      "route_id": "RAIL_MAIN",
+      "distance": 550.6128287676905,
+      "track_offset": -2.1,
+      "car_index": 0,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_0_1",
+      "route_id": "RAIL_MAIN",
+      "distance": 531.6128287676905,
+      "track_offset": -2.1,
+      "car_index": 1,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_0_2",
+      "route_id": "RAIL_MAIN",
+      "distance": 512.6128287676905,
+      "track_offset": -2.1,
+      "car_index": 2,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_0_3",
+      "route_id": "RAIL_MAIN",
+      "distance": 493.61282876769053,
+      "track_offset": -2.1,
+      "car_index": 3,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_0_4",
+      "route_id": "RAIL_MAIN",
+      "distance": 474.61282876769053,
+      "track_offset": -2.1,
+      "car_index": 4,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_0",
+      "route_id": "RAIL_MAIN",
+      "distance": 1104.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 0,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_1",
+      "route_id": "RAIL_MAIN",
+      "distance": 1085.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 1,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_2",
+      "route_id": "RAIL_MAIN",
+      "distance": 1066.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 2,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_3",
+      "route_id": "RAIL_MAIN",
+      "distance": 1047.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 3,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_4",
+      "route_id": "RAIL_MAIN",
+      "distance": 1028.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 4,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_5",
+      "route_id": "RAIL_MAIN",
+      "distance": 1009.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 5,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_6",
+      "route_id": "RAIL_MAIN",
+      "distance": 990.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 6,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_7",
+      "route_id": "RAIL_MAIN",
+      "distance": 971.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 7,
+      "length": 19
+    },
+    {
+      "id": "TRAIN_CAR_1_8",
+      "route_id": "RAIL_MAIN",
+      "distance": 952.2074794979892,
+      "track_offset": 2.1,
+      "car_index": 8,
+      "length": 19
+    }
+  ]
+}

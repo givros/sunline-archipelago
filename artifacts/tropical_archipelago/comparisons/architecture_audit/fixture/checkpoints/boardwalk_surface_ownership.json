@@ -1,0 +1,13 @@
+{
+  "changed_meshes": [
+    "FIXTURE_SPINE_A__walkable_deck_planks.001",
+    "FIXTURE_BRANCH_A__walkable_deck_planks",
+    "FIXTURE_BRANCH_A__walkable_deck_planks.001",
+    "FIXTURE_BRANCH_B__walkable_deck_planks",
+    "FIXTURE_BRANCH_B__walkable_deck_planks.001"
+  ],
+  "overlapping_top_area_removed_m2": 22.870027920812497,
+  "fully_owned_duplicate_planks_removed": 8,
+  "heights_changed": false,
+  "routes_changed": false
+}

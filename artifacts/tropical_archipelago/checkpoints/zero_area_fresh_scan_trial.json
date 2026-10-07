@@ -1,0 +1,23 @@
+{
+  "method": "Only affected polygons are triangulated; exactly zero-area triangles are omitted. All positive triangles and vertex coordinates are preserved.",
+  "target_discovery": {
+    "mode": "Fresh scan of every unique mesh used by the current scene",
+    "meshes_scanned": 5429
+  },
+  "identified_target_meshes": 0,
+  "meshes_repaired": 0,
+  "triangles_removed": 0,
+  "source_scene_saved": false,
+  "records": [],
+  "after_geometry": {
+    "invalid_positions": 0,
+    "invalid_corner_normals": 0,
+    "invalid_face_normals": 0,
+    "degenerate_triangles": 0,
+    "near_zero_positive_triangles": 0,
+    "unique_vertices": 2400723,
+    "unique_triangles": 2874098,
+    "visible_instanced_triangles": 50023080
+  },
+  "remaining_issues": []
+}

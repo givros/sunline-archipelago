@@ -1,0 +1,243 @@
+{
+  "source": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\Tropical_Archipelago.blend",
+  "change": {
+    "boat": "BOAT_06_yacht",
+    "index": 6,
+    "before_world": [
+      -324.8694763183594,
+      -292.74853515625,
+      0.0
+    ],
+    "after_world": [
+      -328.52410888671875,
+      -290.48358154296875,
+      0.0
+    ],
+    "reference_pixel": [
+      218.57829402043274,
+      897.2482701743522
+    ],
+    "translation_m": 4.299576034916563,
+    "hull_clearance_before_m": 5.229360063059944,
+    "hull_clearance_m": 0.9297840125306533,
+    "heading_preserved": true
+  },
+  "berth_access": [
+    {
+      "boat": "BOAT_06_yacht",
+      "deck_edge_world": [
+        -331.550048828125,
+        -288.6081237792969,
+        2.4000000953674316
+      ],
+      "ladder_bottom_z": -0.36,
+      "rung_spacing_m": 0.29,
+      "width_m": 0.86,
+      "supports": "U rails hook over the actual deck edge; suspended rubbing fenders protect the berth."
+    }
+  ],
+  "after": {
+    "method": "Convex shaped hull footprint against individual actual upward dock/boardwalk deck faces; no convex hull across bent piers.",
+    "nearby_search_m": 25,
+    "deck_top_faces": 28905,
+    "near_dock_boats": [
+      {
+        "boat": "BOAT_03_speed",
+        "kind": "speed",
+        "deck": "DOCK_PORTO_WEST__walkable_deck_planks",
+        "hull_to_deck_xy_m": 18.87979,
+        "intersects_xy": false,
+        "world_position": [
+          -362.04998779296875,
+          -277.9800109863281,
+          0.0
+        ],
+        "heading_radians": 1.100000023841858
+      },
+      {
+        "boat": "BOAT_05_fishing",
+        "kind": "fishing",
+        "deck": "DOCK_PORTO_WEST__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 0.89803,
+        "intersects_xy": false,
+        "world_position": [
+          -342.9839782714844,
+          -312.1000061035156,
+          0.0
+        ],
+        "heading_radians": 1.0
+      },
+      {
+        "boat": "BOAT_06_yacht",
+        "kind": "yacht",
+        "deck": "DOCK_PORTO_WEST__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 0.92978,
+        "intersects_xy": false,
+        "world_position": [
+          -328.52410888671875,
+          -290.48358154296875,
+          0.0
+        ],
+        "heading_radians": 1.100000023841858
+      },
+      {
+        "boat": "BOAT_07_utility",
+        "kind": "utility",
+        "deck": "DOCK_PORTO_MAIN__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 0.80623,
+        "intersects_xy": false,
+        "world_position": [
+          -188.13702392578125,
+          -333.87115478515625,
+          0.0
+        ],
+        "heading_radians": 0.0
+      },
+      {
+        "boat": "BOAT_08_fishing",
+        "kind": "fishing",
+        "deck": "DOCK_PORTO_MAIN__walkable_deck_planks",
+        "hull_to_deck_xy_m": 0.67295,
+        "intersects_xy": false,
+        "world_position": [
+          -213.85000610351562,
+          -281.260009765625,
+          0.0
+        ],
+        "heading_radians": 1.399999976158142
+      },
+      {
+        "boat": "BOAT_09_utility",
+        "kind": "utility",
+        "deck": "DOCK_PORTO_EAST__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 0.64052,
+        "intersects_xy": false,
+        "world_position": [
+          -160.5500030517578,
+          -262.3999938964844,
+          0.0
+        ],
+        "heading_radians": 1.100000023841858
+      },
+      {
+        "boat": "BOAT_11_utility",
+        "kind": "utility",
+        "deck": "DOCK_PORTO_FISH__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 9.19494,
+        "intersects_xy": false,
+        "world_position": [
+          -423.1499938964844,
+          -208.27999877929688,
+          0.0
+        ],
+        "heading_radians": 0.0
+      },
+      {
+        "boat": "BOAT_16_sail",
+        "kind": "sail",
+        "deck": "STILT_NORTH_SPINE_1__walkable_deck_planks",
+        "hull_to_deck_xy_m": 15.87136,
+        "intersects_xy": false,
+        "world_position": [
+          109.8499984741211,
+          346.0400085449219,
+          0.0
+        ],
+        "heading_radians": 1.2000000476837158
+      },
+      {
+        "boat": "BOAT_19_utility",
+        "kind": "utility",
+        "deck": "DOCK_AURELIO_EAST__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 21.35934,
+        "intersects_xy": false,
+        "world_position": [
+          419.25,
+          146.77999877929688,
+          0.0
+        ],
+        "heading_radians": 0.10000000149011612
+      },
+      {
+        "boat": "BOAT_21_fishing",
+        "kind": "fishing",
+        "deck": "STILT_CORAL_BRANCH_04__walkable_deck_planks",
+        "hull_to_deck_xy_m": 25.99446,
+        "intersects_xy": false,
+        "world_position": [
+          424.45001220703125,
+          -241.89999389648438,
+          0.0
+        ],
+        "heading_radians": 1.600000023841858
+      },
+      {
+        "boat": "BOAT_23_utility",
+        "kind": "utility",
+        "deck": "DOCK_EMERALD__walkable_deck_planks",
+        "hull_to_deck_xy_m": 0.80129,
+        "intersects_xy": false,
+        "world_position": [
+          -153.03671264648438,
+          245.4452667236328,
+          0.0
+        ],
+        "heading_radians": 0.4000000059604645
+      },
+      {
+        "boat": "BOAT_24_fishing",
+        "kind": "fishing",
+        "deck": "DOCK_PALM__walkable_deck_planks",
+        "hull_to_deck_xy_m": 7.37719,
+        "intersects_xy": false,
+        "world_position": [
+          -242.4499969482422,
+          226.32000732421875,
+          0.0
+        ],
+        "heading_radians": 0.0
+      },
+      {
+        "boat": "BOAT_25_fishing",
+        "kind": "fishing",
+        "deck": "DOCK_TERN__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 0.90624,
+        "intersects_xy": false,
+        "world_position": [
+          -358.79803466796875,
+          -17.14126968383789,
+          0.0
+        ],
+        "heading_radians": 0.5
+      },
+      {
+        "boat": "BOAT_26_speed",
+        "kind": "speed",
+        "deck": "STILT_CORAL_NORTH_BRANCH_04__walkable_deck_planks",
+        "hull_to_deck_xy_m": 19.84567,
+        "intersects_xy": false,
+        "world_position": [
+          371.1499938964844,
+          -131.1999969482422,
+          0.0
+        ],
+        "heading_radians": 0.4000000059604645
+      },
+      {
+        "boat": "BOAT_27_utility",
+        "kind": "utility",
+        "deck": "STILT_CORAL_SPINE_3__walkable_deck_planks.001",
+        "hull_to_deck_xy_m": 0.60873,
+        "intersects_xy": false,
+        "world_position": [
+          351.312744140625,
+          -322.062744140625,
+          0.0
+        ],
+        "heading_radians": 0.4000000059604645
+      }
+    ],
+    "intersections": []
+  },
+  "source_scene_saved": false
+}

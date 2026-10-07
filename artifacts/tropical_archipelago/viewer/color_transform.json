@@ -1,0 +1,18 @@
+{
+  "generator": "OpenColorIO 2.5.2",
+  "source": "Blender5.1 config.ocio",
+  "configuration_sha256": "7b307bf0b420ca001569b09ee4da046fee8ffd61c5ffc831418ad07a4ecbe2f9",
+  "input": "Linear Rec.709",
+  "view": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "display": "sRGB",
+  "storedOutput": "linear-sRGB; browser applies the sRGB encoding once",
+  "lutSize": 65,
+  "inputLog2Range": [
+    -12.5,
+    7.5
+  ],
+  "format": "RGBA Float32; R axis varies fastest",
+  "bytes": 4394000,
+  "sha256": "fe60c4ce49519115cbd940eb4918edb7267c9d235a332acac66b7a6a388f2c4e"
+}

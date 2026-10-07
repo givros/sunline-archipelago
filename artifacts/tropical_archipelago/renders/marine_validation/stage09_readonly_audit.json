@@ -1,0 +1,496 @@
+{
+  "source": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\checkpoints\\09_scene.blend",
+  "count": 28,
+  "boats": [
+    {
+      "id": "BOAT_00_yacht",
+      "kind": "yacht",
+      "length_m": 18.0,
+      "beam_m": 5.1,
+      "component_count": 165,
+      "waterline": 0.0,
+      "min_z": -0.949999988079071,
+      "max_z": 5.775819778442383,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_01_yacht",
+      "kind": "yacht",
+      "length_m": 18.0,
+      "beam_m": 5.1,
+      "component_count": 165,
+      "waterline": 0.0,
+      "min_z": -0.949999988079071,
+      "max_z": 5.775819778442383,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_02_speed",
+      "kind": "speed",
+      "length_m": 8.6,
+      "beam_m": 2.65,
+      "component_count": 137,
+      "waterline": 0.0,
+      "min_z": -0.6432514786720276,
+      "max_z": 1.9529999494552612,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_03_speed",
+      "kind": "speed",
+      "length_m": 8.6,
+      "beam_m": 2.65,
+      "component_count": 137,
+      "waterline": 0.0,
+      "min_z": -0.6432514786720276,
+      "max_z": 1.9529999494552612,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_04_taxi",
+      "kind": "taxi",
+      "length_m": 13.8,
+      "beam_m": 4.1,
+      "component_count": 147,
+      "waterline": 0.0,
+      "min_z": -0.6000000238418579,
+      "max_z": 4.260820388793945,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_05_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_06_yacht",
+      "kind": "yacht",
+      "length_m": 18.0,
+      "beam_m": 5.1,
+      "component_count": 165,
+      "waterline": 0.0,
+      "min_z": -0.949999988079071,
+      "max_z": 5.775819778442383,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_07_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_08_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_09_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_10_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_11_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_12_speed",
+      "kind": "speed",
+      "length_m": 8.6,
+      "beam_m": 2.65,
+      "component_count": 137,
+      "waterline": 0.0,
+      "min_z": -0.6432514786720276,
+      "max_z": 1.9529999494552612,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_13_sail",
+      "kind": "sail",
+      "length_m": 13.1,
+      "beam_m": 3.5,
+      "component_count": 179,
+      "waterline": 0.0,
+      "min_z": -0.800000011920929,
+      "max_z": 14.805767059326172,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_14_sail",
+      "kind": "sail",
+      "length_m": 13.1,
+      "beam_m": 3.5,
+      "component_count": 179,
+      "waterline": 0.0,
+      "min_z": -0.800000011920929,
+      "max_z": 14.805767059326172,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_15_sail",
+      "kind": "sail",
+      "length_m": 13.1,
+      "beam_m": 3.5,
+      "component_count": 179,
+      "waterline": 0.0,
+      "min_z": -0.800000011920929,
+      "max_z": 14.805767059326172,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_16_sail",
+      "kind": "sail",
+      "length_m": 13.1,
+      "beam_m": 3.5,
+      "component_count": 179,
+      "waterline": 0.0,
+      "min_z": -0.800000011920929,
+      "max_z": 14.805767059326172,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_17_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_18_taxi",
+      "kind": "taxi",
+      "length_m": 13.8,
+      "beam_m": 4.1,
+      "component_count": 147,
+      "waterline": 0.0,
+      "min_z": -0.6000000238418579,
+      "max_z": 4.260820388793945,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_19_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_20_speed",
+      "kind": "speed",
+      "length_m": 8.6,
+      "beam_m": 2.65,
+      "component_count": 137,
+      "waterline": 0.0,
+      "min_z": -0.6432514786720276,
+      "max_z": 1.9529999494552612,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_21_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_22_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_23_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_24_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_25_fishing",
+      "kind": "fishing",
+      "length_m": 10.4,
+      "beam_m": 3.45,
+      "component_count": 161,
+      "waterline": 0.0,
+      "min_z": -0.6433954834938049,
+      "max_z": 3.995819568634033,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_26_speed",
+      "kind": "speed",
+      "length_m": 8.6,
+      "beam_m": 2.65,
+      "component_count": 137,
+      "waterline": 0.0,
+      "min_z": -0.6432514786720276,
+      "max_z": 1.9529999494552612,
+      "finite_geometry": true
+    },
+    {
+      "id": "BOAT_27_utility",
+      "kind": "utility",
+      "length_m": 8.8,
+      "beam_m": 3.05,
+      "component_count": 154,
+      "waterline": 0.0,
+      "min_z": -0.6432663798332214,
+      "max_z": 3.7558200359344482,
+      "finite_geometry": true
+    }
+  ],
+  "wakes": [
+    {
+      "id": "BOAT_00_Wake_-1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_00_Wake_-1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_00_Wake_-1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_00_Wake_1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_00_Wake_1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_00_Wake_1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_01_Wake_-1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_01_Wake_-1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_01_Wake_-1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_01_Wake_1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_01_Wake_1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_01_Wake_1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_02_Wake_-1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_02_Wake_-1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_02_Wake_-1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_02_Wake_1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_02_Wake_1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_02_Wake_1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_03_Wake_-1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_03_Wake_-1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_03_Wake_-1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_03_Wake_1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_03_Wake_1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_03_Wake_1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_04_Wake_-1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_04_Wake_-1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_04_Wake_-1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_04_Wake_1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_04_Wake_1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_04_Wake_1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_18_Wake_-1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_18_Wake_-1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_18_Wake_-1_2",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_18_Wake_1_0",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_18_Wake_1_1",
+      "vertices": 80,
+      "faces": 39
+    },
+    {
+      "id": "BOAT_18_Wake_1_2",
+      "vertices": 80,
+      "faces": 39
+    }
+  ]
+}

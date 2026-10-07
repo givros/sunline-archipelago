@@ -1,0 +1,71 @@
+[
+  {
+    "kind": "fishing",
+    "length": 10.4,
+    "beam": 3.45,
+    "draft": 0.62,
+    "components": 161
+  },
+  {
+    "kind": "sail",
+    "length": 13.1,
+    "beam": 3.5,
+    "draft": 0.88,
+    "components": 179
+  },
+  {
+    "kind": "speed",
+    "length": 8.6,
+    "beam": 2.65,
+    "draft": 0.45,
+    "components": 137
+  },
+  {
+    "kind": "yacht",
+    "length": 18.0,
+    "beam": 5.1,
+    "draft": 1.03,
+    "components": 165
+  },
+  {
+    "kind": "taxi",
+    "length": 13.8,
+    "beam": 4.1,
+    "draft": 0.68,
+    "components": 147
+  },
+  {
+    "kind": "utility",
+    "length": 8.8,
+    "beam": 3.05,
+    "draft": 0.56,
+    "components": 154
+  },
+  {
+    "role": "rear",
+    "length": 17.9,
+    "coupling_pitch": 19.0,
+    "width": 3.15,
+    "rail_gauge": 1.435,
+    "components": 173,
+    "rail_datum": 0
+  },
+  {
+    "role": "middle",
+    "length": 17.9,
+    "coupling_pitch": 19.0,
+    "width": 3.15,
+    "rail_gauge": 1.435,
+    "components": 153,
+    "rail_datum": 0
+  },
+  {
+    "role": "front",
+    "length": 17.9,
+    "coupling_pitch": 19.0,
+    "width": 3.15,
+    "rail_gauge": 1.435,
+    "components": 173,
+    "rail_datum": 0
+  }
+]

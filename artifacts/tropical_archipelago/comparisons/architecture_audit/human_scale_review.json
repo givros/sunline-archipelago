@@ -1,0 +1,44 @@
+{
+  "reference": "references/primary_layout.png",
+  "source": "Tropical_Archipelago.blend",
+  "hero_evidence": [
+    "villa_hero_comparison.png",
+    "stilt_hero_comparison.png"
+  ],
+  "confirmed_geometry": [
+    "Complete wall piers and spandrels around recessed glazing and door openings",
+    "Individual roof tiles, eaves, ridge caps, chimneys and exterior trim",
+    "Grounded masonry foundations and complete front steps",
+    "Stilt columns, caps, cross-bracing, decks, handrails and real entrance gaps",
+    "Supported rotunda with three bearing-pile rings and radial load beams",
+    "Three complete harbor service buildings with grounded foundations and connected approaches"
+  ],
+  "reference_driven_corrections": [
+    "Porto bell tower raised 7.2 m while retaining the nave footprint",
+    "Central lagoon rotunda expanded from 16.8 m to 35.2 m diameter",
+    "Four compact shaded market stalls added on available plaza parcels",
+    "Three waterfront sites restored along Porto harbor lanes",
+    "Square bell-tower roof alignment corrected without changing height"
+  ],
+  "navigation_geometry": [
+    "Northwest deck balustrade cut into an actual public gate",
+    "Coral spine rerouted outside house 06 and connected branches rebuilt",
+    "Palm shore origin moved outside VILLA_049",
+    "Northern approach graded into continuous supported circulation",
+    "Lagoon shore approach routed around a railway pier",
+    "Table retained; public traversal metadata detours around its east side"
+  ],
+  "surface_ownership": {
+    "fixture_original_m2": 181.00221110317372,
+    "fixture_after_m2": 181.0022087819881,
+    "symmetric_difference_m2": 5.0124079327e-06,
+    "collider_tags_preserved": true,
+    "height_and_route_changes": false
+  },
+  "honest_limits": [
+    "Only the supplied aerial image constrains reference geometry; unseen front/rear faces are interpreted",
+    "Architecture is crafted procedural geometry with less individual footprint articulation than the photographed reference buildings",
+    "Building interiors remain closed; settlement streets, decks, piers and overwater routes are the exploration surfaces",
+    "Runtime traversal validation is performed separately by the viewer agent"
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "STILT_NORTHWEST_HOUSE_03": {
+    "location": [
+      -182.0,
+      350.9599914550781,
+      0.0
+    ],
+    "angle": -0.21541017293930054,
+    "point_local": [
+      -5.996101379394531,
+      -6.272377014160156,
+      3.200000047683716
+    ],
+    "children": [
+      "STILT_NORTHWEST_HOUSE_03__balustrade_posts",
+      "STILT_NORTHWEST_HOUSE_03__balustrade_rails",
+      "STILT_NORTHWEST_HOUSE_03__cladding_courses",
+      "STILT_NORTHWEST_HOUSE_03__corner_posts",
+      "STILT_NORTHWEST_HOUSE_03__deck_bearers",
+      "STILT_NORTHWEST_HOUSE_03__door_hardware",
+      "STILT_NORTHWEST_HOUSE_03__door_leaf",
+      "STILT_NORTHWEST_HOUSE_03__door_panels",
+      "STILT_NORTHWEST_HOUSE_03__door_stiles",
+      "STILT_NORTHWEST_HOUSE_03__eave_fascia",
+      "STILT_NORTHWEST_HOUSE_03__entrance_steps",
+      "STILT_NORTHWEST_HOUSE_03__individual_clay_tiles",
+      "STILT_NORTHWEST_HOUSE_03__individual_clay_tiles.001",
+      "STILT_NORTHWEST_HOUSE_03__individual_clay_tiles.002",
+      "STILT_NORTHWEST_HOUSE_03__individual_deck_planks",
+      "STILT_NORTHWEST_HOUSE_03__individual_deck_planks.001",
+      "STILT_NORTHWEST_HOUSE_03__opening_jambs",
+      "STILT_NORTHWEST_HOUSE_03__opening_lintels",
+      "STILT_NORTHWEST_HOUSE_03__opening_sills",
+      "STILT_NORTHWEST_HOUSE_03__piling_caps",
+      "STILT_NORTHWEST_HOUSE_03__piling_cross_braces",
+      "STILT_NORTHWEST_HOUSE_03__planter_leaves",
+      "STILT_NORTHWEST_HOUSE_03__planter_rims",
+      "STILT_NORTHWEST_HOUSE_03__raised_floor_frame",
+      "STILT_NORTHWEST_HOUSE_03__roof_bearing_cornice",
+      "STILT_NORTHWEST_HOUSE_03__roof_ridge_caps",
+      "STILT_NORTHWEST_HOUSE_03__roof_structure",
+      "STILT_NORTHWEST_HOUSE_03__shutter_frames",
+      "STILT_NORTHWEST_HOUSE_03__shutter_hinges",
+      "STILT_NORTHWEST_HOUSE_03__shutter_louvers",
+      "STILT_NORTHWEST_HOUSE_03__structural_pilings",
+      "STILT_NORTHWEST_HOUSE_03__terracotta_planters",
+      "STILT_NORTHWEST_HOUSE_03__veranda_canopy",
+      "STILT_NORTHWEST_HOUSE_03__veranda_columns",
+      "STILT_NORTHWEST_HOUSE_03__veranda_front_beam",
+      "STILT_NORTHWEST_HOUSE_03__veranda_seat_legs",
+      "STILT_NORTHWEST_HOUSE_03__veranda_seats",
+      "STILT_NORTHWEST_HOUSE_03__wall_lintels",
+      "STILT_NORTHWEST_HOUSE_03__wall_piers",
+      "STILT_NORTHWEST_HOUSE_03__wall_spandrels",
+      "STILT_NORTHWEST_HOUSE_03__window_glazing",
+      "STILT_NORTHWEST_HOUSE_03__window_mullions",
+      "STILT_NORTHWEST_HOUSE_03__window_transoms"
+    ]
+  },
+  "STILT_CORAL_HOUSE_06": {
+    "location": [
+      374.3999938964844,
+      -273.05999755859375,
+      0.0
+    ],
+    "angle": -1.8919142484664917,
+    "point_local": [
+      -6.717033386230469,
+      -1.3029708862304688,
+      3.200000047683716
+    ],
+    "children": [
+      "STILT_CORAL_HOUSE_06__balustrade_posts",
+      "STILT_CORAL_HOUSE_06__balustrade_rails",
+      "STILT_CORAL_HOUSE_06__cladding_courses",
+      "STILT_CORAL_HOUSE_06__corner_posts",
+      "STILT_CORAL_HOUSE_06__deck_bearers",
+      "STILT_CORAL_HOUSE_06__door_hardware",
+      "STILT_CORAL_HOUSE_06__door_leaf",
+      "STILT_CORAL_HOUSE_06__door_panels",
+      "STILT_CORAL_HOUSE_06__door_stiles",
+      "STILT_CORAL_HOUSE_06__eave_fascia",
+      "STILT_CORAL_HOUSE_06__entrance_steps",
+      "STILT_CORAL_HOUSE_06__individual_clay_tiles",
+      "STILT_CORAL_HOUSE_06__individual_clay_tiles.001",
+      "STILT_CORAL_HOUSE_06__individual_clay_tiles.002",
+      "STILT_CORAL_HOUSE_06__individual_deck_planks",
+      "STILT_CORAL_HOUSE_06__individual_deck_planks.001",
+      "STILT_CORAL_HOUSE_06__opening_jambs",
+      "STILT_CORAL_HOUSE_06__opening_lintels",
+      "STILT_CORAL_HOUSE_06__opening_sills",
+      "STILT_CORAL_HOUSE_06__piling_caps",
+      "STILT_CORAL_HOUSE_06__piling_cross_braces",
+      "STILT_CORAL_HOUSE_06__planter_leaves",
+      "STILT_CORAL_HOUSE_06__planter_rims",
+      "STILT_CORAL_HOUSE_06__raised_floor_frame",
+      "STILT_CORAL_HOUSE_06__roof_bearing_cornice",
+      "STILT_CORAL_HOUSE_06__roof_ridge_caps",
+      "STILT_CORAL_HOUSE_06__roof_structure",
+      "STILT_CORAL_HOUSE_06__shutter_frames",
+      "STILT_CORAL_HOUSE_06__shutter_hinges",
+      "STILT_CORAL_HOUSE_06__shutter_louvers",
+      "STILT_CORAL_HOUSE_06__structural_pilings",
+      "STILT_CORAL_HOUSE_06__terracotta_planters",
+      "STILT_CORAL_HOUSE_06__veranda_canopy",
+      "STILT_CORAL_HOUSE_06__veranda_columns",
+      "STILT_CORAL_HOUSE_06__veranda_front_beam",
+      "STILT_CORAL_HOUSE_06__veranda_seat_legs",
+      "STILT_CORAL_HOUSE_06__veranda_seats",
+      "STILT_CORAL_HOUSE_06__wall_lintels",
+      "STILT_CORAL_HOUSE_06__wall_piers",
+      "STILT_CORAL_HOUSE_06__wall_spandrels",
+      "STILT_CORAL_HOUSE_06__window_glazing",
+      "STILT_CORAL_HOUSE_06__window_mullions",
+      "STILT_CORAL_HOUSE_06__window_transoms"
+    ]
+  },
+  "VILLA_049": {
+    "location": [
+      -314.6000061035156,
+      231.24000549316406,
+      18.878936767578125
+    ],
+    "angle": 0.20000000298023224,
+    "point_local": [
+      1.9111213684082031,
+      -0.3873939514160156,
+      0.07106399536132812
+    ],
+    "children": [
+      "VILLA_049__chimney_cap",
+      "VILLA_049__chimney_shaft",
+      "VILLA_049__chimney_vent",
+      "VILLA_049__corner_pilasters",
+      "VILLA_049__door_hardware",
+      "VILLA_049__door_leaf",
+      "VILLA_049__door_panels",
+      "VILLA_049__door_stiles",
+      "VILLA_049__eave_fascia",
+      "VILLA_049__entrance_steps",
+      "VILLA_049__foundation_coping",
+      "VILLA_049__foundation_courses",
+      "VILLA_049__foundation_masonry",
+      "VILLA_049__individual_clay_tiles",
+      "VILLA_049__individual_clay_tiles.001",
+      "VILLA_049__individual_clay_tiles.002",
+      "VILLA_049__opening_jambs",
+      "VILLA_049__opening_lintels",
+      "VILLA_049__opening_sills",
+      "VILLA_049__planter_leaves",
+      "VILLA_049__planter_rims",
+      "VILLA_049__rainwater_downpipes",
+      "VILLA_049__roof_bearing_cornice",
+      "VILLA_049__roof_ridge_caps",
+      "VILLA_049__roof_structure",
+      "VILLA_049__shutter_frames",
+      "VILLA_049__shutter_hinges",
+      "VILLA_049__shutter_louvers",
+      "VILLA_049__terracotta_planters",
+      "VILLA_049__veranda_canopy",
+      "VILLA_049__veranda_columns",
+      "VILLA_049__veranda_floor",
+      "VILLA_049__veranda_foundation",
+      "VILLA_049__veranda_front_beam",
+      "VILLA_049__veranda_seat_legs",
+      "VILLA_049__veranda_seats",
+      "VILLA_049__wall_lintels",
+      "VILLA_049__wall_piers",
+      "VILLA_049__wall_spandrels",
+      "VILLA_049__window_glazing",
+      "VILLA_049__window_mullions",
+      "VILLA_049__window_transoms"
+    ]
+  },
+  "sites": [
+    {
+      "px": [
+        179,
+        801
+      ],
+      "xyz": [
+        -354.25,
+        -211.55999999999997,
+        2.4487152099609375
+      ],
+      "ground": [
+        1.8302001953125,
+        1.275634765625,
+        2.27886962890625,
+        2.272308349609375,
+        2.4487152099609375,
+        2.6983642578125,
+        2.7119293212890625,
+        2.6234588623046875,
+        3.860076904296875
+      ]
+    },
+    {
+      "px": [
+        268,
+        842
+      ],
+      "xyz": [
+        -296.40000000000003,
+        -245.17999999999998,
+        1.356964111328125
+      ],
+      "ground": [
+        -0.460205078125,
+        0.982086181640625,
+        2.88153076171875,
+        0.23382568359375,
+        1.356964111328125,
+        2.302825927734375,
+        1.51019287109375,
+        1.313812255859375,
+        2.213287353515625
+      ]
+    },
+    {
+      "px": [
+        353,
+        842
+      ],
+      "xyz": [
+        -241.15,
+        -245.17999999999998,
+        2.2088470458984375
+      ],
+      "ground": [
+        2.084930419921875,
+        1.6804962158203125,
+        2.298065185546875,
+        2.1650543212890625,
+        2.2088470458984375,
+        2.9438018798828125,
+        1.944000244140625,
+        2.5059814453125,
+        2.8648223876953125
+      ]
+    },
+    {
+      "px": [
+        215,
+        275
+      ],
+      "xyz": [
+        -330.85,
+        219.76,
+        6.6607666015625
+      ],
+      "ground": [
+        1.8304443359375,
+        5.3419036865234375,
+        7.8845672607421875,
+        3.0198822021484375,
+        6.6607666015625,
+        11.127395629882812,
+        4.4647369384765625,
+        9.376373291015625,
+        18.84326171875
+      ]
+    },
+    {
+      "px": [
+        217,
+        288
+      ],
+      "xyz": [
+        -329.55,
+        209.1,
+        2.430877685546875
+      ],
+      "ground": [
+        -0.2364959716796875,
+        1.18231201171875,
+        4.303070068359375,
+        0.4429473876953125,
+        2.430877685546875,
+        5.7567138671875,
+        1.1019744873046875,
+        3.345001220703125,
+        7.7648468017578125
+      ]
+    },
+    {
+      "px": [
+        224,
+        276
+      ],
+      "xyz": [
+        -325.0,
+        218.94,
+        8.276412963867188
+      ],
+      "ground": [
+        2.4232177734375,
+        6.056915283203125,
+        10.261825561523438,
+        3.924163818359375,
+        8.276412963867188,
+        17.214523315429688,
+        5.1566925048828125,
+        10.282974243164062,
+        18.878936767578125
+      ]
+    },
+    {
+      "px": [
+        907,
+        462
+      ],
+      "xyz": [
+        118.95,
+        66.42,
+        -0.6
+      ],
+      "ground": [
+        -0.6,
+        -0.6,
+        -0.6,
+        -0.6,
+        -0.6,
+        -0.6,
+        -0.6,
+        -0.6,
+        -0.6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "samples": 10000,
+  "deterministicSeed": 27,
+  "comparison": "Exact Blender OCIO CPU versus65-cube trilinear runtime simulation includingFloat16GPU storage",
+  "linearRGBError": {
+    "maximum": 0.012961864471435547,
+    "p95": 0.001595409121364355,
+    "mean": 0.00039175822166725993
+  },
+  "sourceColorEncoding": "linear",
+  "LutOutputEncoding": "linear-sRGB",
+  "browserOutputEncoding": "sRGB exactlyonce",
+  "exposure": 1.0717734625362931
+}

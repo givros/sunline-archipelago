@@ -1,0 +1,27 @@
+# Installed dependencies and generated build output
+node_modules/
+dist/
+tools_py/
+__pycache__/
+*.py[cod]
+*.log
+*.blend1
+*.blend2
+.env
+.env.*
+!.env.example
+*.tmp
+.asset-validation/
+
+# Large originals are preserved byte-for-byte in large-assets/.
+# Their exact paths are listed below by the asset packing utility.
+
+# Generated large-asset paths
+/artifacts/tropical_archipelago/checkpoints/06_scene.blend
+/artifacts/tropical_archipelago/checkpoints/07_scene.blend
+/artifacts/tropical_archipelago/checkpoints/08_scene.blend
+/artifacts/tropical_archipelago/checkpoints/09_scene.blend
+/artifacts/tropical_archipelago/checkpoints/10_scene.blend
+/artifacts/tropical_archipelago/checkpoints/11_scene.blend
+/artifacts/tropical_archipelago/Tropical_Archipelago.blend
+/artifacts/tropical_archipelago/viewer/public/assets/scene.bin

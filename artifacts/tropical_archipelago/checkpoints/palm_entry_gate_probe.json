@@ -1,0 +1,10 @@
+{
+  "cut_components": [
+    "Palm_Crescent_public_approach__railing_handrails",
+    "Palm_Crescent_public_approach__railing_posts"
+  ],
+  "tested_capsule_centers": 9,
+  "join_width_m": 1.3,
+  "body_radius_m": 0.32,
+  "blockers": []
+}

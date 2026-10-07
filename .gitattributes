@@ -1,0 +1,13 @@
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.ts text eol=lf
+*.mjs text eol=lf
+*.json -text
+*.yml text eol=lf
+*.md text eol=lf
+*.blend -text
+*.bin -text
+*.png -text
+*.part -text

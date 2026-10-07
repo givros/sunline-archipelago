@@ -1,0 +1,33 @@
+{
+  "source_visible_objects": 33758,
+  "source_evaluated_triangles": 49984497,
+  "exported_objects": 33758,
+  "unique_triangles": 1926095,
+  "invalid_normals_repaired": 0,
+  "unsupported_material_nodes": [],
+  "unique_meshes": 1666,
+  "material_count": 99,
+  "binary_bytes": 175542888,
+  "dynamic_roots": 54,
+  "train_cars": 14,
+  "train_bogies": 28,
+  "train_drawbars": 12,
+  "texture_files": [
+    {
+      "path": "textures/17_ocean_bathymetry_png.png",
+      "sha256": "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f",
+      "bytes": 10227224,
+      "size": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "json_bytes": 24939303,
+  "elapsed_seconds": 14.79,
+  "scene_binary_sha256": "36bba42e727bd53ebc80e118f79d2276d9edfc718614f79abd09c51e96812abc",
+  "source_sha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+  "compression": "none",
+  "geometry_reduction": "none",
+  "attribute_precision": "Float32, matching Blender evaluated attribute storage"
+}

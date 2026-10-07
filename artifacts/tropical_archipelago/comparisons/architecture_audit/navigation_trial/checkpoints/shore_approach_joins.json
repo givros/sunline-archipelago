@@ -1,0 +1,44 @@
+{
+  "emerald_lane_vertices_graded": 183,
+  "corner_guards_opened": [
+    "Palm_Crescent_public_approach__railing_handrails",
+    "Palm_Crescent_public_approach__railing_posts"
+  ],
+  "updated_route": {
+    "id": "Palm_Crescent_public_approach",
+    "points": [
+      [
+        -313.3,
+        220.57999999999998,
+        15.858260498046874
+      ],
+      [
+        -310.42,
+        220.58,
+        16.393304199218747
+      ],
+      [
+        -308.5,
+        221.5025,
+        17.575
+      ],
+      [
+        -309.7769230769231,
+        223.04,
+        18.95
+      ],
+      [
+        -312.65,
+        223.04,
+        18.95
+      ],
+      [
+        -312.65,
+        223.04,
+        18.95
+      ]
+    ],
+    "width": 2.3,
+    "level": 3.2
+  }
+}

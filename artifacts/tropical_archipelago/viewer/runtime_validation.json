@@ -1,0 +1,999 @@
+{
+  "schema": "sunline-runtime-validation-1",
+  "timestamp": "2026-10-06T20:49:25.364Z",
+  "sourceFile": "Tropical_Archipelago.blend",
+  "sourceSha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+  "finalScene": true,
+  "browser": "152.0.7977.8",
+  "actualBackend": "WebGPU",
+  "hardware": {
+    "vendor": "nvidia",
+    "architecture": "ampere",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+  },
+  "viewport": {
+    "width": 1448,
+    "height": 1086,
+    "dpr": 1,
+    "framebuffer": [
+      1448,
+      1086
+    ]
+  },
+  "checks": {
+    "backend": {
+      "status": "passed",
+      "detail": {
+        "actualBackend": "WebGPU",
+        "adapter": {
+          "vendor": "nvidia",
+          "architecture": "ampere",
+          "device": "",
+          "description": "",
+          "isFallbackAdapter": false
+        }
+      }
+    },
+    "source_transfer": {
+      "status": "passed",
+      "detail": {
+        "objects": 33758,
+        "triangles": 49984497,
+        "independentRuntimeInventory": {
+          "retainedTriangles": 49984497,
+          "renderObjects": 938,
+          "dynamicRootCount": 54,
+          "sourceObjects": 33758
+        },
+        "uniqueMeshes": 1666,
+        "compression": "none",
+        "attributePrecision": "Float32",
+        "sourceFile": "Tropical_Archipelago.blend"
+      }
+    },
+    "production_assets": {
+      "status": "passed",
+      "detail": {
+        "servedBinarySha256": "36bba42e727bd53ebc80e118f79d2276d9edfc718614f79abd09c51e96812abc",
+        "localBinarySha256": "36bba42e727bd53ebc80e118f79d2276d9edfc718614f79abd09c51e96812abc",
+        "textureHashes": [
+          {
+            "path": "textures/17_ocean_bathymetry_png.png",
+            "served": "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f",
+            "source": "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f",
+            "equal": true
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:4173/assets/index-m5AHadhH.css",
+            "status": 200,
+            "length": 4326,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/index-HGrOWMys.js",
+            "status": 200,
+            "length": 969735,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/agx-medium-high.bin",
+            "status": 200,
+            "length": 4394000,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/scene.json",
+            "status": 200,
+            "length": 24939303,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/scene.bin",
+            "status": 200,
+            "length": 175542888,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/textures/17_ocean_bathymetry_png.png",
+            "status": 200,
+            "length": 10227224,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/index-m5AHadhH.css",
+            "status": 200,
+            "length": 4326,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/index-HGrOWMys.js",
+            "status": 200,
+            "length": 969735,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/agx-medium-high.bin",
+            "status": 200,
+            "length": 4394000,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/scene.json",
+            "status": 200,
+            "length": 24939303,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/scene.bin",
+            "status": 200,
+            "length": 175542888,
+            "encoding": "none"
+          },
+          {
+            "url": "http://127.0.0.1:4173/assets/textures/17_ocean_bathymetry_png.png",
+            "status": 200,
+            "length": 10227224,
+            "encoding": "none"
+          }
+        ],
+        "networkAssetBytes": 216077476
+      }
+    },
+    "served_color_transform": {
+      "status": "passed",
+      "detail": {
+        "served": "fe60c4ce49519115cbd940eb4918edb7267c9d235a332acac66b7a6a388f2c4e",
+        "expected": "fe60c4ce49519115cbd940eb4918edb7267c9d235a332acac66b7a6a388f2c4e",
+        "bytes": 4394000
+      }
+    },
+    "performance_measurement": {
+      "status": "passed",
+      "detail": {
+        "warmupSeconds": 1.8,
+        "samplingSeconds": 12,
+        "samples": 169,
+        "frameMilliseconds": {
+          "p50": 66.70000000000073,
+          "p95": 99.89999999999782,
+          "maximum": 100.09999999999854
+        },
+        "cpuCallbackMilliseconds": {
+          "p50": 42.20000000298023,
+          "p95": 64.29999999701977
+        },
+        "drawCallsAllPasses": 4083,
+        "gpuMilliseconds": null,
+        "gpuTimingReason": "GPU timestamp coverage across independent reflection and main render frames not separately established; do not label one pass whole-frame timing.",
+        "rendererAllocationEstimateBytes": 571418764
+      },
+      "evidence": "output/playwright/performance-samples.json"
+    },
+    "safe_spawns": {
+      "status": "passed",
+      "detail": [
+        {
+          "id": "porto",
+          "position": [
+            -284.7,
+            6.765000076293936,
+            141.85999999999999
+          ],
+          "valid": true
+        },
+        {
+          "id": "aurelio",
+          "position": [
+            286,
+            8.76500007629396,
+            -251.73999999999998
+          ],
+          "valid": true
+        },
+        {
+          "id": "lagoon",
+          "position": [
+            128.70000000000002,
+            4.970000000000003,
+            -65.6
+          ],
+          "valid": true
+        },
+        {
+          "id": "coral",
+          "position": [
+            205.4,
+            6.272945566732193,
+            306.68
+          ],
+          "valid": true
+        },
+        {
+          "id": "emerald",
+          "position": [
+            -124.15,
+            4.403082514138924,
+            -273.06
+          ],
+          "valid": true
+        },
+        {
+          "id": "northpoint",
+          "position": [
+            -371.1,
+            12.99555801700694,
+            -395.23999999999995
+          ],
+          "valid": true
+        },
+        {
+          "id": "palm",
+          "position": [
+            -320.45,
+            4.353894095575255,
+            -205.82
+          ],
+          "valid": true
+        },
+        {
+          "id": "heron",
+          "position": [
+            -417.95,
+            4.22771918300362,
+            -284.53999999999996
+          ],
+          "valid": true
+        },
+        {
+          "id": "tern",
+          "position": [
+            -417.3,
+            6.591139077617165,
+            -32.8
+          ],
+          "valid": true
+        },
+        {
+          "id": "castaway",
+          "position": [
+            -16.85,
+            6.027971806221903,
+            -156.62
+          ],
+          "valid": true
+        }
+      ]
+    },
+    "actual_keyboard_walk": {
+      "status": "passed",
+      "detail": {
+        "before": [
+          -284.7,
+          6.765000076293936,
+          141.85999999999999
+        ],
+        "after": [
+          -281.8709237450982,
+          6.765000076293936,
+          139.3230081703026
+        ],
+        "distance": 3.8000000000000025,
+        "pointerLocked": true,
+        "eyeAboveSupport": 1.7199999999999998
+      }
+    },
+    "mouse_look": {
+      "status": "passed",
+      "detail": {
+        "yawBefore": -0.8397762421589757,
+        "yawAfter": -1.0317762421589758,
+        "pitchAfter": 0.8599999999999999
+      }
+    },
+    "escape_pause": {
+      "status": "passed",
+      "detail": {
+        "paused": true,
+        "pointerLocked": false,
+        "keys": []
+      }
+    },
+    "application_focus_loss": {
+      "status": "passed",
+      "detail": {
+        "method": "Synthetic blur event verifies application handling, not operating-system focus interception",
+        "paused": true,
+        "keys": []
+      }
+    },
+    "regional_traversal": {
+      "status": "passed",
+      "detail": [
+        {
+          "id": "porto",
+          "position": [
+            -283.51607047947454,
+            6.765000076293936,
+            143.18023558562103
+          ],
+          "eyeAboveSupport": 1.7199999999999998,
+          "valid": true,
+          "movementMetres": 1.7733333333335228,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "aurelio",
+          "position": [
+            287.2924376146966,
+            8.76500007629396,
+            -250.5257858001041
+          ],
+          "eyeAboveSupport": 1.7199999999999998,
+          "valid": true,
+          "movementMetres": 1.7733333333334287,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "lagoon",
+          "position": [
+            128.8486172038267,
+            4.970000000000003,
+            -67.36709480159877
+          ],
+          "eyeAboveSupport": 1.7199999999999993,
+          "valid": true,
+          "movementMetres": 1.7733333333332093,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "coral",
+          "position": [
+            207.14492353504036,
+            6.266691669203016,
+            306.99615339310793
+          ],
+          "eyeAboveSupport": 1.7263611064004358,
+          "valid": true,
+          "movementMetres": 1.7733443609027817,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "emerald",
+          "position": [
+            -122.66008376916764,
+            4.844649427753072,
+            -272.098303199437
+          ],
+          "eyeAboveSupport": 1.6748915341981676,
+          "valid": true,
+          "movementMetres": 1.8274825444609752,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "northpoint",
+          "position": [
+            -370.0368736302506,
+            12.4920759162077,
+            -393.8206785307579
+          ],
+          "eyeAboveSupport": 1.749065751801961,
+          "valid": true,
+          "movementMetres": 1.8434221808726186,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "palm",
+          "position": [
+            -318.8346544083062,
+            4.3318898460385205,
+            -205.2451009964854
+          ],
+          "eyeAboveSupport": 1.7154008962481186,
+          "valid": true,
+          "movementMetres": 1.714740339481237,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "heron",
+          "position": [
+            -416.82696509655756,
+            3.9710334421435594,
+            -283.1675920006203
+          ],
+          "eyeAboveSupport": 1.7246641420662723,
+          "valid": true,
+          "movementMetres": 1.7918143544106766,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "tern",
+          "position": [
+            -416.0353143545224,
+            6.2648022126777425,
+            -31.556906548470288
+          ],
+          "eyeAboveSupport": 1.7252453119972042,
+          "valid": true,
+          "movementMetres": 1.8031103295504665,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        },
+        {
+          "id": "castaway",
+          "position": [
+            -16.176250329912513,
+            5.997331731010798,
+            -158.2603574284799
+          ],
+          "eyeAboveSupport": 1.7228841549917533,
+          "valid": true,
+          "movementMetres": 1.7735980168350134,
+          "method": "Application destination selection and actual Explore button/pointer lock; bounded controller movement simulation"
+        }
+      ]
+    },
+    "fullscreen_api": {
+      "status": "passed",
+      "detail": {
+        "entered": true,
+        "escapePaused": true,
+        "retainedOnEscape": true,
+        "explicitExit": true,
+        "scope": "Headless application/API-state verification. Native physical Escape hold and the user browser are not verified."
+      }
+    },
+    "train_motion": {
+      "status": "passed",
+      "detail": {
+        "roots": 14,
+        "firstBefore": {
+          "id": "TRAIN_CAR_0_0",
+          "position": [
+            284.51577528144844,
+            155.45311614647255,
+            18
+          ],
+          "rotation": [
+            0,
+            0,
+            -1.9464993706385818,
+            "XYZ"
+          ]
+        },
+        "firstAfter": {
+          "id": "TRAIN_CAR_0_0",
+          "position": [
+            281.28428668671705,
+            148.76162387859824,
+            18
+          ],
+          "rotation": [
+            0,
+            0,
+            -2.1110936029238045,
+            "XYZ"
+          ]
+        }
+      }
+    },
+    "reload_lifecycle": {
+      "status": "passed",
+      "detail": {
+        "reloadCompleted": true,
+        "backendAfterReload": "WebGPU",
+        "frameCountBefore": 550,
+        "frameCountAfter": 550,
+        "readyAfterDispose": false,
+        "allocationEstimateAfterDispose": 0
+      }
+    },
+    "render_and_shader_errors": {
+      "status": "passed",
+      "detail": []
+    },
+    "reflections": {
+      "status": "passed",
+      "detail": {
+        "scope": "Full-resolution camera-mirrored HDR scene pass; final train and lagoon images inspected at full resolution. Pier, stilt-house and foliage reflections are visible without ocean self-feedback.",
+        "resolution": "1448x1086",
+        "excluded": "ocean optical material only"
+      },
+      "evidence": [
+        "output/playwright/final-train.png",
+        "output/playwright/final-walking-lagoon.png"
+      ]
+    },
+    "native_browser_escape": {
+      "status": "blocked",
+      "detail": "Physical long-hold Escape and the user browser were not controlled. Headless API-state checks are listed separately."
+    },
+    "source_runtime_motion_equality": {
+      "status": "passed",
+      "roots": 54,
+      "samples": 33,
+      "maxPositionErrorMetres": 0.0001024768171162987,
+      "maxYawErrorRadians": 0.00023888151543616232,
+      "maxScaleError": 0.00007302163280814566,
+      "evidence": "output/playwright/train-motion-equality.json"
+    },
+    "source_color_transform": {
+      "status": "passed",
+      "samples": 10000,
+      "deterministicSeed": 27,
+      "comparison": "Exact Blender OCIO CPU versus65-cube trilinear runtime simulation includingFloat16GPU storage",
+      "linearRGBError": {
+        "maximum": 0.012961864471435547,
+        "p95": 0.001595409121364355,
+        "mean": 0.00039175822166725993
+      },
+      "sourceColorEncoding": "linear",
+      "LutOutputEncoding": "linear-sRGB",
+      "browserOutputEncoding": "sRGB exactlyonce",
+      "exposure": 1.0717734625362931,
+      "evidence": "output/playwright/color-transform-validation.json",
+      "transform": {
+        "generator": "OpenColorIO 2.5.2",
+        "source": "Blender5.1 config.ocio",
+        "configuration_sha256": "7b307bf0b420ca001569b09ee4da046fee8ffd61c5ffc831418ad07a4ecbe2f9",
+        "input": "Linear Rec.709",
+        "view": "AgX",
+        "look": "AgX - Medium High Contrast",
+        "display": "sRGB",
+        "storedOutput": "linear-sRGB; browser applies the sRGB encoding once",
+        "lutSize": 65,
+        "inputLog2Range": [
+          -12.5,
+          7.5
+        ],
+        "format": "RGBA Float32; R axis varies fastest",
+        "bytes": 4394000,
+        "sha256": "fe60c4ce49519115cbd940eb4918edb7267c9d235a332acac66b7a6a388f2c4e"
+      }
+    },
+    "coast_and_solid_collision": {
+      "status": "passed",
+      "sourceSha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+      "results": [
+        {
+          "check": "coastal_swimming",
+          "status": "passed",
+          "method": "Bounded actual controller updates over exported triangles, walk-to-swim and swim-to-land",
+          "coast": {
+            "x": -77,
+            "z": -190.2000000000001,
+            "foot": 0.40654928063774654,
+            "dx": -0.7071067811865477,
+            "dz": -0.7071067811865475
+          },
+          "outDistance": 8.271195029899216,
+          "waterPosition": [
+            -82.75467068755785,
+            0.6499999999999999,
+            -195.95467068755818
+          ],
+          "waterEye": 1.72,
+          "returnPosition": [
+            -71.67077189245762,
+            4.503761995340942,
+            -184.87077189245605
+          ],
+          "returnedToLand": true
+        },
+        {
+          "check": "solid_building_collision",
+          "status": "passed",
+          "wall": "VILLA_001__wall_piers",
+          "attemptedDistanceMetres": 7.6,
+          "actualProgressMetres": 0.9499999999999886,
+          "actualTravel": 0.9565115737606414,
+          "solidProbe": true,
+          "finalPosition": [
+            -378.3929874153137,
+            6.16032451130404,
+            127.0999984741211
+          ]
+        }
+      ],
+      "evidence": "output/playwright/circulation-validation.json"
+    },
+    "continuous_boardwalk_traversal": {
+      "status": "passed",
+      "sourceSha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+      "results": [
+        {
+          "id": "STILT_NORTHWEST_SPINE_1",
+          "status": "passed",
+          "reachedPoints": 37,
+          "totalPoints": 37,
+          "travelMetres": 97.66000000000129
+        },
+        {
+          "id": "STILT_NORTHWEST_SPINE_2",
+          "status": "passed",
+          "reachedPoints": 15,
+          "totalPoints": 15,
+          "travelMetres": 37.6909274746648
+        },
+        {
+          "id": "STILT_NORTH_SPINE_1",
+          "status": "passed",
+          "reachedPoints": 68,
+          "totalPoints": 68,
+          "travelMetres": 136.86333333333317
+        },
+        {
+          "id": "STILT_WEST_SPINE_1",
+          "status": "passed",
+          "reachedPoints": 62,
+          "totalPoints": 62,
+          "travelMetres": 124.41607773699302
+        },
+        {
+          "id": "STILT_WEST_SPINE_2",
+          "status": "passed",
+          "reachedPoints": 14,
+          "totalPoints": 14,
+          "travelMetres": 33.69333333333404
+        },
+        {
+          "id": "STILT_LAGOON_SPINE_1",
+          "status": "passed",
+          "reachedPoints": 46,
+          "totalPoints": 46,
+          "travelMetres": 94.17666666666761
+        },
+        {
+          "id": "STILT_LAGOON_SPINE_2",
+          "status": "passed",
+          "reachedPoints": 90,
+          "totalPoints": 90,
+          "travelMetres": 243.89666666666517
+        },
+        {
+          "id": "STILT_LAGOON_SPINE_3",
+          "status": "passed",
+          "reachedPoints": 18,
+          "totalPoints": 18,
+          "travelMetres": 46.929999999999524
+        },
+        {
+          "id": "STILT_CORAL_SPINE_1",
+          "status": "passed",
+          "reachedPoints": 40,
+          "totalPoints": 40,
+          "travelMetres": 104.94333333332669
+        },
+        {
+          "id": "STILT_CORAL_SPINE_2",
+          "status": "passed",
+          "reachedPoints": 21,
+          "totalPoints": 21,
+          "travelMetres": 51.87000000000136
+        },
+        {
+          "id": "STILT_CORAL_SPINE_3",
+          "status": "passed",
+          "reachedPoints": 62,
+          "totalPoints": 62,
+          "travelMetres": 143.0700000000052
+        },
+        {
+          "id": "STILT_CORAL_NORTH_SPINE_1",
+          "status": "passed",
+          "reachedPoints": 40,
+          "totalPoints": 40,
+          "travelMetres": 107.47666666666827
+        },
+        {
+          "id": "STILT_CORAL_NORTH_SPINE_2",
+          "status": "passed",
+          "reachedPoints": 18,
+          "totalPoints": 18,
+          "travelMetres": 46.233333333333526
+        },
+        {
+          "id": "STILT_CORAL_NORTH_SPINE_3",
+          "status": "passed",
+          "reachedPoints": 22,
+          "totalPoints": 22,
+          "travelMetres": 55.537445321133816
+        },
+        {
+          "id": "Palm_Crescent_public_approach",
+          "status": "passed",
+          "reachedPoints": 4,
+          "totalPoints": 4,
+          "travelMetres": 11.273333333333557
+        },
+        {
+          "id": "STILT_CORAL_BRANCH_05",
+          "status": "passed",
+          "reachedPoints": 4,
+          "totalPoints": 4,
+          "travelMetres": 8.043333333333878
+        },
+        {
+          "id": "STILT_CORAL_BRANCH_06",
+          "status": "passed",
+          "reachedPoints": 5,
+          "totalPoints": 5,
+          "travelMetres": 9.310000000000619
+        },
+        {
+          "id": "STILT_CORAL_BRANCH_07",
+          "status": "passed",
+          "reachedPoints": 8,
+          "totalPoints": 8,
+          "travelMetres": 17.79666666666624
+        },
+        {
+          "id": "STILT_CORAL_BRANCH_08",
+          "status": "passed",
+          "reachedPoints": 2,
+          "totalPoints": 2,
+          "travelMetres": 0.4433333333331199
+        },
+        {
+          "id": "STILT_CORAL_BRANCH_09",
+          "status": "passed",
+          "reachedPoints": 8,
+          "totalPoints": 8,
+          "travelMetres": 18.240000000004404
+        },
+        {
+          "id": "STILT_NORTH_BRANCH_04",
+          "status": "passed",
+          "reachedPoints": 5,
+          "totalPoints": 5,
+          "travelMetres": 10.449999999999962
+        },
+        {
+          "id": "STILT_NORTH_BRANCH_05",
+          "status": "passed",
+          "reachedPoints": 5,
+          "totalPoints": 5,
+          "travelMetres": 11.318051435465048
+        },
+        {
+          "id": "STILT_NORTH_BRANCH_06",
+          "status": "passed",
+          "reachedPoints": 6,
+          "totalPoints": 6,
+          "travelMetres": 12.16000000000461
+        },
+        {
+          "id": "Porto_Parish_Forecourt",
+          "status": "passed",
+          "reachedPoints": 53,
+          "totalPoints": 53,
+          "travelMetres": 18.746666666666687
+        }
+      ],
+      "evidence": "output/playwright/boardwalk-validation.json"
+    },
+    "controlled_failure_paths": {
+      "status": "passed",
+      "scope": "Isolated headless development fixtures; no user browser state changed",
+      "results": [
+        {
+          "scenario": "missing_webgpu",
+          "status": "passed",
+          "message": "This world needs WebGPU. Open this local address in a recent desktop Chrome or Edge with graphics acceleration enabled.",
+          "reloadAvailable": true,
+          "reloadActionVerified": true,
+          "sceneReady": false
+        },
+        {
+          "scenario": "adapter_unavailable",
+          "status": "passed",
+          "message": "No WebGPU graphics adapter is available. Enable graphics acceleration and reload.",
+          "reloadAvailable": true,
+          "reloadActionVerified": true,
+          "sceneReady": false
+        },
+        {
+          "scenario": "scene_unavailable",
+          "status": "passed",
+          "message": "The island scene could not be loaded. Please reload the page.",
+          "reloadAvailable": true,
+          "reloadActionVerified": true,
+          "sceneReady": false
+        }
+      ],
+      "evidence": "output/playwright/failure-paths.json"
+    },
+    "rendered_browser_motion_equality": {
+      "status": "passed",
+      "comparedTransforms": 324,
+      "maxPositionErrorMetres": 0.0000468917419593927,
+      "maxYawErrorRadians": 0.00019918721815459506,
+      "maxScaleError": 0.00005370462594833647,
+      "evidence": "output/playwright/train-runtime-samples.json"
+    },
+    "native_dpr_and_framebuffer": {
+      "status": "passed",
+      "width": 1448,
+      "height": 1086,
+      "dpr": 1,
+      "framebuffer": [
+        1448,
+        1086
+      ]
+    },
+    "temporal_accumulation": {
+      "status": "not_applicable",
+      "detail": "No TAA, reprojection or temporal lighting cache is used; MSAA resolves the full native framebuffer."
+    },
+    "persistent_lighting_cache": {
+      "status": "not_applicable",
+      "detail": "No persistent lighting cache or dev-only bake endpoint. Sky PMREM is constructed from the current fixed sky parameters each load."
+    },
+    "hardware_device_loss": {
+      "status": "blocked",
+      "detail": "Device loss has a stop-and-reload handler; no hardware device reset was forced on the user computer."
+    }
+  },
+  "performance": {
+    "coldStartup": {
+      "backend": 464,
+      "scene": 1145.5,
+      "navigation": 488.19999999552965,
+      "firstFrame": 15721.80000000447,
+      "shaderAndFirstFrame": 13557.5
+    },
+    "overview": {
+      "warmupSeconds": 1.8,
+      "samplingSeconds": 12,
+      "samples": 169,
+      "frameMilliseconds": {
+        "p50": 66.70000000000073,
+        "p95": 99.89999999999782,
+        "maximum": 100.09999999999854
+      },
+      "cpuCallbackMilliseconds": {
+        "p50": 42.20000000298023,
+        "p95": 64.29999999701977
+      },
+      "drawCallsAllPasses": 4083,
+      "gpuMilliseconds": null,
+      "gpuTimingReason": "GPU timestamp coverage across independent reflection and main render frames not separately established; do not label one pass whole-frame timing.",
+      "rendererAllocationEstimateBytes": 571418764
+    },
+    "walking": {
+      "samplingSeconds": 4,
+      "samples": 78,
+      "frameMilliseconds": {
+        "p50": 50,
+        "p95": 66.59999999999854
+      },
+      "cpuCallbackMilliseconds": {
+        "p50": 33.30000000447035,
+        "p95": 36.79999999701977
+      },
+      "drawCallsAllPasses": 2595
+    },
+    "warmStartup": {
+      "backend": 148,
+      "scene": 1180.1999999955297,
+      "navigation": 434.8999999985099,
+      "firstFrame": 15532.89999999851,
+      "shaderAndFirstFrame": 13722.39999999851
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127",
+    "The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127"
+  ],
+  "evidence": [
+    "output/playwright/final-overview.png",
+    "output/playwright/final-walking-porto.png",
+    "output/playwright/final-walking-lagoon.png",
+    "output/playwright/final-train.png"
+  ],
+  "status": "passed_with_stated_limits",
+  "renderProfile": {
+    "path": "render_profile.json",
+    "sha256": "34f9722b6b5e5263099229cd392c17fe2bcfac12199f29b604a301dba3e0f45d",
+    "quality": {
+      "pixelRatio": "native devicePixelRatio; never capped",
+      "antialias": "4x MSAA",
+      "colorSpace": "sRGB output once",
+      "toneMapping": "Blender OCIO AgX Medium High Contrast,65³ log-input LUT generated from the installed Blender5.1 configuration",
+      "exposure": 1.0717734625362931,
+      "geometry": "Every evaluated source triangle, exact source vertex/corner normals/UV/color attributes",
+      "attributePrecision": "Float32, matching evaluated Blender mesh arrays",
+      "textures": "Original source image bytes, full resolution, sRGB color maps",
+      "compression": "None; scene binary and HTTP payloads uncompressed",
+      "qualityReduction": "None; no decimation, LOD, resolution adaptation or distant-object hiding"
+    },
+    "passes": [
+      {
+        "id": "sun-shadow",
+        "type": "directional PCF shadow map",
+        "resolution": [
+          4096,
+          4096
+        ],
+        "contributors": "All source solid geometry including moving trains; no simplified shadow geometry",
+        "coverage": "1120m overview, 190m moving local walking frustum, same fixed shadow texture resolution",
+        "update": "Once per complete frame, shared by reflection and beauty with identical caster transforms"
+      },
+      {
+        "id": "ocean-reflection",
+        "type": "camera-mirrored scene with oblique sea clipping",
+        "resolution": "full native framebuffer dimensions",
+        "format": "RGBA16F",
+        "samples": 4,
+        "contributors": "Complete source scene including offscreen objects and animated trains, only ocean optical material excluded to prevent feedback"
+      },
+      {
+        "id": "contact-depth",
+        "type": "full source normal/depth capture",
+        "resolution": "full native framebuffer",
+        "format": "RGBA16F normal + Float32 single-sample depth",
+        "contributors": "All source geometry; no simplified proxies"
+      },
+      {
+        "id": "contact-occlusion",
+        "type": "GTAO",
+        "resolution": "full native framebuffer",
+        "radiusMetres": 2.2,
+        "samples": 16,
+        "temporalFiltering": false,
+        "ownership": "Only indirect diffuse/specular, never direct sunlight; primary camera only"
+      },
+      {
+        "id": "contact-filter",
+        "type": "edge-aware depth/normal-guided denoise",
+        "resolution": "full native framebuffer",
+        "radiusPixels": 3
+      },
+      {
+        "id": "beauty",
+        "type": "PBR direct + environment + hemispheric fill",
+        "resolution": "full native framebuffer dimensions",
+        "samples": 4,
+        "output": "Blender OCIO display transform with exactly one final sRGB encoding"
+      }
+    ]
+  },
+  "sourceTransfer": {
+    "source_visible_objects": 33758,
+    "source_evaluated_triangles": 49984497,
+    "exported_objects": 33758,
+    "unique_triangles": 1926095,
+    "invalid_normals_repaired": 0,
+    "unsupported_material_nodes": [],
+    "unique_meshes": 1666,
+    "material_count": 99,
+    "binary_bytes": 175542888,
+    "dynamic_roots": 54,
+    "train_cars": 14,
+    "train_bogies": 28,
+    "train_drawbars": 12,
+    "texture_files": [
+      {
+        "path": "textures/17_ocean_bathymetry_png.png",
+        "sha256": "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f",
+        "bytes": 10227224,
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    ],
+    "json_bytes": 24939303,
+    "elapsed_seconds": 14.79,
+    "scene_binary_sha256": "36bba42e727bd53ebc80e118f79d2276d9edfc718614f79abd09c51e96812abc",
+    "source_sha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+    "compression": "none",
+    "geometry_reduction": "none",
+    "attribute_precision": "Float32, matching Blender evaluated attribute storage"
+  },
+  "completedAt": "2026-10-06T20:52:53.647Z",
+  "localUrl": "http://127.0.0.1:4173/"
+}

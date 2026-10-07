@@ -1,0 +1,50 @@
+{
+  "arched_spans": 13,
+  "support_spacing_max_m": 30.6373486659853,
+  "deck_width_m": 11.8,
+  "walkway_clear_width_m": 1.5,
+  "junctions": {
+    "unions": [
+      {
+        "role": "StructuralDeck",
+        "input_objects": 3,
+        "input_faces": 4330,
+        "result_faces": 4589,
+        "object": "RAIL_MAIN_StructuralDeck"
+      },
+      {
+        "role": "Ballast",
+        "input_objects": 3,
+        "input_faces": 4330,
+        "result_faces": 4487,
+        "object": "RAIL_MAIN_Ballast"
+      },
+      {
+        "role": "RailFoot",
+        "input_objects": 12,
+        "input_faces": 17320,
+        "result_faces": 17608,
+        "object": "RAIL_MAIN_RailFoot"
+      },
+      {
+        "role": "RailWeb",
+        "input_objects": 12,
+        "input_faces": 17320,
+        "result_faces": 17571,
+        "object": "RAIL_MAIN_RailWeb"
+      },
+      {
+        "role": "RailHead",
+        "input_objects": 12,
+        "input_faces": 17320,
+        "result_faces": 17578,
+        "object": "RAIL_MAIN_RailHead"
+      }
+    ],
+    "corridor_boolean_cuts": 36,
+    "removed_interior_posts": 59,
+    "removed_duplicate_sleepers": 163,
+    "rail_centerlines_preserved": true,
+    "modifiers_applied": true
+  }
+}

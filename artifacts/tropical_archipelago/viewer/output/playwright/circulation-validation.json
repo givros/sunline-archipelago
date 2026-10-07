@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-06T20:51:53.618Z",
+  "sourceSha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+  "results": [
+    {
+      "check": "coastal_swimming",
+      "status": "passed",
+      "method": "Bounded actual controller updates over exported triangles, walk-to-swim and swim-to-land",
+      "coast": {
+        "x": -77,
+        "z": -190.2000000000001,
+        "foot": 0.40654928063774654,
+        "dx": -0.7071067811865477,
+        "dz": -0.7071067811865475
+      },
+      "outDistance": 8.271195029899216,
+      "waterPosition": [
+        -82.75467068755785,
+        0.6499999999999999,
+        -195.95467068755818
+      ],
+      "waterEye": 1.72,
+      "returnPosition": [
+        -71.67077189245762,
+        4.503761995340942,
+        -184.87077189245605
+      ],
+      "returnedToLand": true
+    },
+    {
+      "check": "solid_building_collision",
+      "status": "passed",
+      "wall": "VILLA_001__wall_piers",
+      "attemptedDistanceMetres": 7.6,
+      "actualProgressMetres": 0.9499999999999886,
+      "actualTravel": 0.9565115737606414,
+      "solidProbe": true,
+      "finalPosition": [
+        -378.3929874153137,
+        6.16032451130404,
+        127.0999984741211
+      ]
+    }
+  ]
+}

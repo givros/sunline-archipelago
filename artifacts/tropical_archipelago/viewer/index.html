@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#123d47"/><link rel="icon" href="data:,"/><title>The Sunline Archipelago</title></head><body>
+<canvas id="world" aria-label="Explorable tropical archipelago"></canvas>
+<div id="loading"><div class="loading-mark">✧</div><p class="eyebrow">THE SUNLINE</p><h1>A world between islands.</h1><p id="loading-label">Preparing your passage…</p><div class="loading-track"><i id="loading-bar"></i></div><button id="reload" hidden>Try again</button></div>
+<header id="header"><div class="brand"><span class="brand-icon">✧</span><div><span class="eyebrow">THE SUNLINE</span><p>Tropical Archipelago</p></div></div><div class="header-actions"><span id="region">Archipelago overview</span><button id="fullscreen" title="Enter fullscreen" aria-label="Enter fullscreen">⛶</button></div></header>
+<aside id="destinations" hidden><span class="eyebrow">YOUR NEXT STOP</span><div id="landmarks"></div></aside>
+<div id="pause" hidden><span class="eyebrow">TAKE YOUR TIME</span><h2>The islands can wait.</h2><p>WASD / ZQSD to walk · Mouse to look<br/>Shift to move faster · Escape to pause</p><div><button id="resume" class="primary">Continue walking</button><button id="reset">Return to village</button><button id="pause-overview">Overview</button></div></div>
+<nav id="toolbar"><button id="places" aria-expanded="false" aria-controls="destinations">Places ⌄</button><button id="overview" class="active">Overview</button><button id="walk" class="primary">Explore on foot <span>↗</span></button><button id="train">Follow the train</button><button id="motion" title="Pause or resume the trains" aria-label="Pause trains">Ⅱ</button></nav>
+<div id="hint">Drag to orbit · Scroll to explore</div><div id="crosshair" hidden></div><div id="toast" role="status" hidden></div><script type="module" src="/src/main.ts"></script></body></html>

@@ -1,0 +1,298 @@
+{
+  "schema": "sunline-source-audit-2",
+  "fresh_process_reopen": true,
+  "blend_file": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\Tropical_Archipelago.blend",
+  "source_sha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+  "source_bytes": 267770528,
+  "source_file_unchanged_during_audit": true,
+  "blender_version": "5.1.2",
+  "inventory": {
+    "islands": 10,
+    "buildings": 103,
+    "building_kinds": {
+      "villa": 28,
+      "cottage": 22,
+      "shop": 7,
+      "stilt": 46
+    },
+    "church_landmarks": 2,
+    "boats": 28,
+    "boat_kinds": {
+      "yacht": 3,
+      "speed": 5,
+      "taxi": 2,
+      "fishing": 7,
+      "utility": 7,
+      "sail": 4
+    },
+    "vegetation_instances": {
+      "palm": 520,
+      "broadleaf": 1417,
+      "rock": 419,
+      "shrub": 801,
+      "fern": 459
+    },
+    "vegetation_by_region": {
+      "REG_MAIN": {
+        "palm": 207,
+        "broadleaf": 528,
+        "rock": 173,
+        "shrub": 338,
+        "fern": 195
+      },
+      "REG_NORTHWEST": {
+        "palm": 13,
+        "broadleaf": 38,
+        "rock": 10,
+        "shrub": 21,
+        "fern": 12
+      },
+      "REG_NORTH": {
+        "palm": 55,
+        "broadleaf": 205,
+        "rock": 51,
+        "shrub": 90,
+        "fern": 51
+      },
+      "REG_NORTHEAST": {
+        "palm": 85,
+        "broadleaf": 297,
+        "rock": 75,
+        "shrub": 138,
+        "fern": 79
+      },
+      "REG_WEST_ROCK": {
+        "palm": 8,
+        "broadleaf": 24,
+        "rock": 6,
+        "shrub": 13,
+        "fern": 7
+      },
+      "REG_WEST_LAGOON": {
+        "palm": 25,
+        "broadleaf": 32,
+        "rock": 9,
+        "shrub": 19,
+        "fern": 11
+      },
+      "REG_CENTER_CAY": {
+        "palm": 8,
+        "broadleaf": 10,
+        "rock": 6,
+        "shrub": 14,
+        "fern": 8
+      },
+      "REG_WEST_SOUTH": {
+        "palm": 9,
+        "broadleaf": 29,
+        "rock": 7,
+        "shrub": 16,
+        "fern": 9
+      },
+      "REG_CENTRAL_PALMS": {
+        "palm": 31,
+        "broadleaf": 13,
+        "rock": 11,
+        "shrub": 22,
+        "fern": 13
+      },
+      "REG_SOUTHEAST": {
+        "palm": 79,
+        "broadleaf": 241,
+        "rock": 71,
+        "shrub": 130,
+        "fern": 74
+      }
+    },
+    "rail_routes": 3,
+    "dock_assemblies": 11,
+    "dock_loading_aprons": 5,
+    "quay_ladder_berths": 6,
+    "wake_meshes": 36,
+    "stilt_districts": {
+      "STILT_NORTHWEST": 9,
+      "STILT_NORTH": 6,
+      "STILT_WEST": 6,
+      "STILT_LAGOON": 12,
+      "STILT_CORAL": 9,
+      "STILT_CORAL_NORTH": 4
+    }
+  },
+  "mesh_object_count": 33758,
+  "unique_mesh_count": 5435,
+  "materials_used": 98,
+  "geometry": {
+    "invalid_positions": 0,
+    "invalid_corner_normals": 0,
+    "invalid_face_normals": 0,
+    "degenerate_triangles": 0,
+    "near_zero_positive_triangles": 0,
+    "unique_vertices": 2384907,
+    "unique_triangles": 2849519,
+    "visible_instanced_triangles": 49984497
+  },
+  "geometry_issue_mesh_count": 0,
+  "geometry_issue_examples": [],
+  "vegetation_registry_reconciliation": {
+    "surviving_instances": 3616,
+    "counts": {
+      "broadleaf": 1417,
+      "fern": 459,
+      "palm": 520,
+      "rock": 419,
+      "shrub": 801
+    },
+    "removed_instances": 23,
+    "additional_source_instances": 4,
+    "original_grounding_statistics_preserved": true,
+    "source_sha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f"
+  },
+  "invalid_transform_examples": [],
+  "singular_transform_examples": [],
+  "dependencies": {
+    "images": [
+      {
+        "name": "ocean_bathymetry.png",
+        "source": "FILE",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "packed_bytes": 10227224,
+        "packed_sha256": [
+          "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f"
+        ],
+        "path": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\references\\ocean_bathymetry.png",
+        "external_file_exists": true,
+        "available": true,
+        "external_sha256": "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f",
+        "external_matches_packed": true
+      }
+    ],
+    "other_dependencies": [],
+    "missing": [],
+    "all_used_file_images_packed": true,
+    "external_textures_match_packed": true
+  },
+  "routes": [
+    {
+      "id": "RAIL_MAIN",
+      "length_m": 1378.973,
+      "sample_count": 681,
+      "length_source": "Authored route, verified against final source mesh by downward casts at every segment midpoint and all four rail offsets.",
+      "structural_deck_meshes": [
+        "RAIL_MAIN_StructuralDeck"
+      ],
+      "rail_head_meshes": [
+        "RAIL_MAIN_RailHead"
+      ],
+      "deck_coverage_hits": 680,
+      "deck_coverage_samples": 680,
+      "rail_coverage_hits": 2720,
+      "rail_coverage_samples": 2720,
+      "max_vertical_surface_error_m": 7.629394538355427e-07,
+      "miss_examples": [],
+      "rail_piers": 34,
+      "arched_spans": 13,
+      "sampled_surface_coverage_pass": true
+    },
+    {
+      "id": "RAIL_SOUTH",
+      "length_m": 639.8488,
+      "sample_count": 313,
+      "length_source": "Authored route, verified against final source mesh by downward casts at every segment midpoint and all four rail offsets.",
+      "structural_deck_meshes": [
+        "RAIL_MAIN_StructuralDeck"
+      ],
+      "rail_head_meshes": [
+        "RAIL_MAIN_RailHead"
+      ],
+      "deck_coverage_hits": 312,
+      "deck_coverage_samples": 312,
+      "rail_coverage_hits": 1248,
+      "rail_coverage_samples": 1248,
+      "max_vertical_surface_error_m": 7.629394538355427e-07,
+      "miss_examples": [],
+      "rail_piers": 19,
+      "arched_spans": 0,
+      "sampled_surface_coverage_pass": true
+    },
+    {
+      "id": "RAIL_SPUR",
+      "length_m": 183.8241,
+      "sample_count": 90,
+      "length_source": "Authored route, verified against final source mesh by downward casts at every segment midpoint and all four rail offsets.",
+      "structural_deck_meshes": [
+        "RAIL_MAIN_StructuralDeck"
+      ],
+      "rail_head_meshes": [
+        "RAIL_MAIN_RailHead"
+      ],
+      "deck_coverage_hits": 89,
+      "deck_coverage_samples": 89,
+      "rail_coverage_hits": 356,
+      "rail_coverage_samples": 356,
+      "max_vertical_surface_error_m": 7.629394538355427e-07,
+      "miss_examples": [],
+      "rail_piers": 6,
+      "arched_spans": 0,
+      "sampled_surface_coverage_pass": true
+    }
+  ],
+  "dynamic": {
+    "counts": {
+      "train_car": 14,
+      "train_bogie": 28,
+      "train_drawbar": 12
+    },
+    "root_count": 54,
+    "consists": {
+      "SUNLINE_0": 5,
+      "SUNLINE_1": 9
+    },
+    "keyframe_range": [
+      1.0,
+      8446.0
+    ],
+    "driver_count": 60,
+    "invalid_driver_count": 0,
+    "max_loop_matrix_error": 0.0,
+    "errors": [],
+    "pass": true
+  },
+  "frame_start": 1,
+  "frame_end": 8446,
+  "fps": 24,
+  "cameras": [
+    "CAM_Reference_Overview",
+    "CAM_overview",
+    "CAM_plan",
+    "CAM_porto_village",
+    "CAM_church_approach",
+    "CAM_lagoon_boardwalk",
+    "CAM_sunline_viaduct",
+    "CAM_working_harbor",
+    "CAM_aurelio_arrival",
+    "CAM_coral_overwater"
+  ],
+  "remaining_modifiers": [],
+  "nonmesh_renderable_objects": [],
+  "checks": {
+    "all_reference_islands": true,
+    "all_authored_boats": true,
+    "all_stilt_houses": true,
+    "all_rail_routes": true,
+    "train_motion": true,
+    "all_file_images_packed": true,
+    "dependencies_available": true,
+    "external_textures_match_packed": true,
+    "finite_transforms": true,
+    "finite_geometry": true,
+    "valid_normals": true,
+    "nondegenerate_triangles": true,
+    "mesh_only_evaluated_geometry": true,
+    "source_file_unchanged": true
+  },
+  "source_validity_pass": true
+}

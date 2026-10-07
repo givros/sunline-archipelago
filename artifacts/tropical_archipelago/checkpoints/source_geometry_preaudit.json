@@ -1,0 +1,880 @@
+{
+  "scope": "Read-only geometry preaudit before the final source freeze; camera saves may still occur. This is not the final source hash witness.",
+  "source": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\Tropical_Archipelago.blend",
+  "geometry": {
+    "invalid_positions": 0,
+    "invalid_corner_normals": 0,
+    "invalid_face_normals": 0,
+    "degenerate_triangles": 18946,
+    "near_zero_positive_triangles": 0,
+    "unique_vertices": 2400723,
+    "unique_triangles": 2893044,
+    "visible_instanced_triangles": 50042026
+  },
+  "issue_meshes": [
+    {
+      "mesh": "Station access ramp__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 188,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_SPINE_1__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 822,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_SPINE_2__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 284,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_01__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 276,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_02__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 12,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_02__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 32,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_04__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 24,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_04__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 40,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_05__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 112,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_06__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 24,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_06__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 64,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_07__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 12,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_07__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 24,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_08__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 180,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTHWEST_BRANCH_09__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 36,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTH_BRANCH_02__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 52,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_SPINE_2__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 86,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_01__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 16,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_02__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 80,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_03__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 112,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_04__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 20,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_04__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 36,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_05__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 82,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_BRANCH_06__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 24,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_SPINE_2__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 1944,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_SPINE_3__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 4,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_SPINE_3__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 366,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_01__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 92,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_02__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 60,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_03__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 176,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_04__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 96,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_05__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 148,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_06__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 64,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_07__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 112,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_08__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 72,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_09__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 8,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_09__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 60,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_10__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 84,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_11__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 96,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_BRANCH_12__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 52,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_SPINE_1__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 638,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_SPINE_2__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 8,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_SPINE_2__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 548,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_01__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 112,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_02__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 88,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_03__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 176,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_04__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 120,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_SPINE_1__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 676,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_SPINE_2__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 8,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_SPINE_2__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 428,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_SPINE_3__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 246,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_BRANCH_01__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 96,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_BRANCH_02__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 64,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_BRANCH_03__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 68,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_NORTH_BRANCH_04__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 76,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_MAIN__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 12,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_MAIN__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 1136,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_MAIN_loading_apron__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 16,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_MAIN_loading_apron__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 52,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_CROSS__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 656,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_CROSS_loading_apron__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 16,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_CROSS_loading_apron__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 52,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_WEST_shore_connection__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 8,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_WEST_shore_connection__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 296,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_WEST__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 1092,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_WEST_loading_apron__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 8,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_WEST_loading_apron__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 52,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_FISH_shore_connection__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 92,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_FISH__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 456,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PORTO_EAST__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 220,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_TERN__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 38,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_PALM__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 364,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 464,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO_loading_apron__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 16,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO_loading_apron__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 56,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO_EAST_shore_connection__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 496,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO_EAST__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 156,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO_EAST_loading_apron__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 6,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_AURELIO_EAST_loading_apron__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 24,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_EMERALD_shore_connection__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 112,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "DOCK_EMERALD__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 276,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_WEST_SPINE_1__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 822,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_SPINE_3__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 4,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_SPINE_3__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 1064,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_05__walkable_deck_planks_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 8,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_05__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 68,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_06__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 96,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_07__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 118,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_CORAL_BRANCH_09__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 196,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTH_SPINE_1__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 404,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTH_BRANCH_04__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 10,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTH_BRANCH_05__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 72,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_NORTH_BRANCH_06__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 120,
+      "near_zero_positive_triangles": 0
+    },
+    {
+      "mesh": "STILT_LAGOON_SPINE_1__walkable_deck_planks.001_owned_plank_solids",
+      "invalid_positions": 0,
+      "invalid_corner_normals": 0,
+      "invalid_face_normals": 0,
+      "degenerate_triangles": 368,
+      "near_zero_positive_triangles": 0
+    }
+  ],
+  "dependencies": {
+    "images": [
+      {
+        "name": "ocean_bathymetry.png",
+        "source": "FILE",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "packed_bytes": 10512239,
+        "packed_sha256": [
+          "9673a61bf7ef6c9ae891256e90e2bd3447ec3bdb7d23484c97e876968fb86a82"
+        ],
+        "path": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\references\\ocean_bathymetry.png",
+        "external_file_exists": true,
+        "available": true,
+        "external_sha256": "9673a61bf7ef6c9ae891256e90e2bd3447ec3bdb7d23484c97e876968fb86a82"
+      }
+    ],
+    "other_dependencies": [],
+    "missing": [],
+    "all_used_file_images_packed": true
+  },
+  "routes": [
+    {
+      "id": "RAIL_MAIN",
+      "length_m": 1378.973,
+      "sample_count": 681,
+      "length_source": "Authored route, verified against final source mesh by downward casts at every segment midpoint and all four rail offsets.",
+      "structural_deck_meshes": [
+        "RAIL_MAIN_StructuralDeck"
+      ],
+      "rail_head_meshes": [
+        "RAIL_MAIN_RailHead"
+      ],
+      "deck_coverage_hits": 680,
+      "deck_coverage_samples": 680,
+      "rail_coverage_hits": 2720,
+      "rail_coverage_samples": 2720,
+      "max_vertical_surface_error_m": 7.629394538355427e-07,
+      "miss_examples": [],
+      "rail_piers": 34,
+      "arched_spans": 13,
+      "sampled_surface_coverage_pass": true
+    },
+    {
+      "id": "RAIL_SOUTH",
+      "length_m": 639.8488,
+      "sample_count": 313,
+      "length_source": "Authored route, verified against final source mesh by downward casts at every segment midpoint and all four rail offsets.",
+      "structural_deck_meshes": [
+        "RAIL_MAIN_StructuralDeck"
+      ],
+      "rail_head_meshes": [
+        "RAIL_MAIN_RailHead"
+      ],
+      "deck_coverage_hits": 312,
+      "deck_coverage_samples": 312,
+      "rail_coverage_hits": 1248,
+      "rail_coverage_samples": 1248,
+      "max_vertical_surface_error_m": 7.629394538355427e-07,
+      "miss_examples": [],
+      "rail_piers": 19,
+      "arched_spans": 0,
+      "sampled_surface_coverage_pass": true
+    },
+    {
+      "id": "RAIL_SPUR",
+      "length_m": 183.8241,
+      "sample_count": 90,
+      "length_source": "Authored route, verified against final source mesh by downward casts at every segment midpoint and all four rail offsets.",
+      "structural_deck_meshes": [
+        "RAIL_MAIN_StructuralDeck"
+      ],
+      "rail_head_meshes": [
+        "RAIL_MAIN_RailHead"
+      ],
+      "deck_coverage_hits": 89,
+      "deck_coverage_samples": 89,
+      "rail_coverage_hits": 356,
+      "rail_coverage_samples": 356,
+      "max_vertical_surface_error_m": 7.629394538355427e-07,
+      "miss_examples": [],
+      "rail_piers": 6,
+      "arched_spans": 0,
+      "sampled_surface_coverage_pass": true
+    }
+  ],
+  "dynamic": {
+    "counts": {
+      "train_car": 14,
+      "train_bogie": 28,
+      "train_drawbar": 12
+    },
+    "root_count": 54,
+    "consists": {
+      "SUNLINE_0": 5,
+      "SUNLINE_1": 9
+    },
+    "keyframe_range": [
+      1.0,
+      8446.0
+    ],
+    "driver_count": 60,
+    "invalid_driver_count": 0,
+    "max_loop_matrix_error": 0.0,
+    "errors": [],
+    "pass": true
+  },
+  "visible_mesh_objects": 33758,
+  "unique_meshes": 5429
+}

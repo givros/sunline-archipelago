@@ -1,0 +1,199 @@
+{
+  "source": "E:\\Dev\\cosy-island-archipelago\\artifacts\\tropical_archipelago\\checkpoints\\08_scene.blend",
+  "counts": {
+    "train_car": 14,
+    "train_bogie": 28,
+    "train_drawbar": 12
+  },
+  "max_world_loop_error": 0.0,
+  "invalid_drivers": [],
+  "bogie_mesh_counts": {
+    "TRAIN_BOGIE_0_0_REAR": 21,
+    "TRAIN_BOGIE_0_0_FRONT": 21,
+    "TRAIN_BOGIE_0_1_REAR": 21,
+    "TRAIN_BOGIE_0_1_FRONT": 21,
+    "TRAIN_BOGIE_0_2_REAR": 21,
+    "TRAIN_BOGIE_0_2_FRONT": 21,
+    "TRAIN_BOGIE_0_3_REAR": 21,
+    "TRAIN_BOGIE_0_3_FRONT": 21,
+    "TRAIN_BOGIE_0_4_FRONT": 21,
+    "TRAIN_BOGIE_0_4_REAR": 21,
+    "TRAIN_BOGIE_1_0_REAR": 21,
+    "TRAIN_BOGIE_1_0_FRONT": 21,
+    "TRAIN_BOGIE_1_1_REAR": 21,
+    "TRAIN_BOGIE_1_1_FRONT": 21,
+    "TRAIN_BOGIE_1_2_REAR": 21,
+    "TRAIN_BOGIE_1_2_FRONT": 21,
+    "TRAIN_BOGIE_1_3_REAR": 21,
+    "TRAIN_BOGIE_1_3_FRONT": 21,
+    "TRAIN_BOGIE_1_4_REAR": 21,
+    "TRAIN_BOGIE_1_4_FRONT": 21,
+    "TRAIN_BOGIE_1_5_REAR": 21,
+    "TRAIN_BOGIE_1_5_FRONT": 21,
+    "TRAIN_BOGIE_1_6_REAR": 21,
+    "TRAIN_BOGIE_1_6_FRONT": 21,
+    "TRAIN_BOGIE_1_7_REAR": 21,
+    "TRAIN_BOGIE_1_7_FRONT": 21,
+    "TRAIN_BOGIE_1_8_FRONT": 21,
+    "TRAIN_BOGIE_1_8_REAR": 21
+  },
+  "operational_validation": {
+    "max_bogie_center_to_track_m": 4.3e-05,
+    "max_wheel_tread_to_nearest_rail_m": 0.047001,
+    "max_neighbor_coupler_center_gap_m": 1.053236,
+    "max_arc_pitch_error_m": 0.0,
+    "max_bogie_reparent_matrix_error": 6.1e-05,
+    "samples": 4294,
+    "notes": [
+      "Both bogies independently swivel; rigid body uses an exact11.3m solved support chord.",
+      "Rear asset bogie positions are mirrored; source and runtime use the mirrored support chord."
+    ],
+    "max_drawbar_endpoint_contact_error_m": 4.3e-05,
+    "wheel_contact_tolerance_m": 0.075,
+    "bogie_center_tolerance_m": 0.005,
+    "operational_contact_pass": true
+  },
+  "frame1": [
+    {
+      "name": "TRAIN_CAR_0_0",
+      "role": "front",
+      "position": [
+        126.00012969970703,
+        260.8207702636719,
+        18.0
+      ],
+      "yaw": -0.2735241949558258
+    },
+    {
+      "name": "TRAIN_CAR_0_1",
+      "role": "middle",
+      "position": [
+        107.69012451171875,
+        265.8941955566406,
+        18.0
+      ],
+      "yaw": -0.26594769954681396
+    },
+    {
+      "name": "TRAIN_CAR_0_2",
+      "role": "middle",
+      "position": [
+        89.31742095947266,
+        270.73388671875,
+        18.0
+      ],
+      "yaw": -0.24756644666194916
+    },
+    {
+      "name": "TRAIN_CAR_0_3",
+      "role": "middle",
+      "position": [
+        70.8263931274414,
+        275.09393310546875,
+        18.0
+      ],
+      "yaw": -0.21330304443836212
+    },
+    {
+      "name": "TRAIN_CAR_0_4",
+      "role": "rear",
+      "position": [
+        52.207923889160156,
+        278.87750244140625,
+        18.0
+      ],
+      "yaw": -0.1895534247159958
+    },
+    {
+      "name": "TRAIN_CAR_1_0",
+      "role": "front",
+      "position": [
+        17.223567962646484,
+        -47.941856384277344,
+        18.0
+      ],
+      "yaw": -2.7086236476898193
+    },
+    {
+      "name": "TRAIN_CAR_1_1",
+      "role": "middle",
+      "position": [
+        34.462867736816406,
+        -39.95402526855469,
+        18.0
+      ],
+      "yaw": -2.705538034439087
+    },
+    {
+      "name": "TRAIN_CAR_1_2",
+      "role": "middle",
+      "position": [
+        51.63611602783203,
+        -31.82573699951172,
+        18.0
+      ],
+      "yaw": -2.6924586296081543
+    },
+    {
+      "name": "TRAIN_CAR_1_3",
+      "role": "middle",
+      "position": [
+        68.75845336914062,
+        -23.590187072753906,
+        18.0
+      ],
+      "yaw": -2.6947689056396484
+    },
+    {
+      "name": "TRAIN_CAR_1_4",
+      "role": "middle",
+      "position": [
+        85.87117767333984,
+        -15.33480453491211,
+        18.0
+      ],
+      "yaw": -2.6877946853637695
+    },
+    {
+      "name": "TRAIN_CAR_1_5",
+      "role": "middle",
+      "position": [
+        102.86314392089844,
+        -6.835272789001465,
+        18.0
+      ],
+      "yaw": -2.665710926055908
+    },
+    {
+      "name": "TRAIN_CAR_1_6",
+      "role": "middle",
+      "position": [
+        119.58881378173828,
+        2.1734602451324463,
+        18.0
+      ],
+      "yaw": -2.6268255710601807
+    },
+    {
+      "name": "TRAIN_CAR_1_7",
+      "role": "middle",
+      "position": [
+        135.94532775878906,
+        11.836692810058594,
+        18.0
+      ],
+      "yaw": -2.5898919105529785
+    },
+    {
+      "name": "TRAIN_CAR_1_8",
+      "role": "rear",
+      "position": [
+        151.97531127929688,
+        22.034038543701172,
+        18.0
+      ],
+      "yaw": -2.560814380645752
+    }
+  ],
+  "curve_inspection_frame": 7582.790606552966
+}

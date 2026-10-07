@@ -1,0 +1,78 @@
+[
+  {
+    "district": "STILT_NORTH",
+    "point": [
+      -18.7771757816,
+      379.95535725346
+    ],
+    "terrain": 24.4752197265625,
+    "hits": [
+      [
+        "REG_NORTH",
+        24.47522735595703
+      ],
+      [
+        "STILT_NORTH_SPINE_1__walkable_deck_planks.001",
+        24.62493896484375
+      ]
+    ]
+  },
+  {
+    "district": "STILT_NORTH",
+    "point": [
+      -18.62,
+      380.04
+    ],
+    "terrain": 24.330856323242188,
+    "hits": [
+      [
+        "REG_NORTH",
+        24.33086395263672
+      ],
+      [
+        "STILT_NORTH_SPINE_1__walkable_deck_planks.001",
+        24.43157196044922
+      ]
+    ]
+  },
+  {
+    "district": "STILT_WEST",
+    "point": [
+      -313.3,
+      220.58
+    ],
+    "terrain": 15.748260498046875,
+    "hits": [
+      [
+        "Palm_Crescent_public_approach",
+        17.226348876953125
+      ],
+      [
+        "REG_WEST_LAGOON",
+        15.748245239257812
+      ],
+      [
+        "STILT_WEST_SPINE_1__walkable_deck_planks",
+        15.796371459960938
+      ]
+    ]
+  },
+  {
+    "district": "STILT_WEST",
+    "point": [
+      -313.239,
+      220.8106
+    ],
+    "terrain": 16.421554565429688,
+    "hits": [
+      [
+        "Palm_Crescent_public_approach",
+        17.600234985351562
+      ],
+      [
+        "REG_WEST_LAGOON",
+        16.421554565429688
+      ]
+    ]
+  }
+]

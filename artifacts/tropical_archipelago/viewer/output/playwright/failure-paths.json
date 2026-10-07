@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-10-06T20:52:39.238Z",
+  "method": "Isolated headless development fixtures; no user browser state changed",
+  "results": [
+    {
+      "scenario": "missing_webgpu",
+      "status": "passed",
+      "message": "This world needs WebGPU. Open this local address in a recent desktop Chrome or Edge with graphics acceleration enabled.",
+      "reloadAvailable": true,
+      "reloadActionVerified": true,
+      "sceneReady": false
+    },
+    {
+      "scenario": "adapter_unavailable",
+      "status": "passed",
+      "message": "No WebGPU graphics adapter is available. Enable graphics acceleration and reload.",
+      "reloadAvailable": true,
+      "reloadActionVerified": true,
+      "sceneReady": false
+    },
+    {
+      "scenario": "scene_unavailable",
+      "status": "passed",
+      "message": "The island scene could not be loaded. Please reload the page.",
+      "reloadAvailable": true,
+      "reloadActionVerified": true,
+      "sceneReady": false
+    }
+  ]
+}

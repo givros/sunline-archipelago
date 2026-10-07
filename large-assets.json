@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "chunk_bytes": 50331648,
+  "encoding": "raw; no compression or quality change",
+  "files": [
+    {
+      "path": "artifacts/tropical_archipelago/checkpoints/06_scene.blend",
+      "bytes": 116501561,
+      "sha256": "1c72198cf99ee41a133730c56416d94b6894b5bbd25708e0c742cb196fae198e",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/06_scene.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "27969f61ebe985da88528668a5669399f0d05b20f3094204c41ad44b077ee32f"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/06_scene.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "5005bcbe379e54f343be34701ba6a3d16f9356d2d255ab1ffdc5b8449b07594d"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/06_scene.blend/0002.part",
+          "bytes": 15838265,
+          "sha256": "a52a5f790b201224f3ceddb3e24e907bb9fb646603a54e88300680b383ba8a1d"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/checkpoints/07_scene.blend",
+      "bytes": 159244462,
+      "sha256": "4ecbc4efdd8ec670cc351469e671b6384adb6b45e2d54901d0e9f09a20c25f03",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/07_scene.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "8d7555f52851f0d5692dc98406d1366d21ff83397a0b7da9136355af3e53d88f"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/07_scene.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "3dc021ef17d7544e4375f2febef1b979ce0f1416b56ebaa6a9e3ba1af5ab53b1"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/07_scene.blend/0002.part",
+          "bytes": 50331648,
+          "sha256": "55e4833523b8364045ac71b776f2307b4878628503a53c688f3e6924b34130bb"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/07_scene.blend/0003.part",
+          "bytes": 8249518,
+          "sha256": "8d952bcb92d9e6d2f509678702bacd9164e1e20a70de9275213ac7d8e72de9d2"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/checkpoints/08_scene.blend",
+      "bytes": 181728951,
+      "sha256": "beac67172d149a2e70eb80e9709eeda3fc8a4d9a1b17f79b9842a0211e6bddf2",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/08_scene.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "b37649f8a1d11ef3fc1ee80b634a8148d96cefa259cb14d6118777b9023a56c7"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/08_scene.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "2abe417b1ccb2909ced41f000ec9b8407b91512e63e2a669f64ea0898f2c81d8"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/08_scene.blend/0002.part",
+          "bytes": 50331648,
+          "sha256": "fc2e80c737df79ee08f0398ba3da833097abf5f811d48609c3ddff60a1f08c2c"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/08_scene.blend/0003.part",
+          "bytes": 30734007,
+          "sha256": "f0eeed35650f06293d7c9559f8658cddeeac1ecc3c5dd9a32c0c1c05deee8078"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/checkpoints/09_scene.blend",
+      "bytes": 194742640,
+      "sha256": "2da961461f7b676bea7567b5c5d9dccef701e45241bcb6a07724724f675b3d7c",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/09_scene.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "f48f4de37da9ad0fb3b1c6d56f5a437886df5619fe89cdc33485dc1c4093bbac"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/09_scene.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "2dd647bc252be2d459385918f757635b1c563a18a46a02fc2d4cc6307dd9fa89"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/09_scene.blend/0002.part",
+          "bytes": 50331648,
+          "sha256": "bd30d8c4a680d6edf188a9809da6d4c91b3e27442f61ebad4cd22d207ea7b095"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/09_scene.blend/0003.part",
+          "bytes": 43747696,
+          "sha256": "0bd81954d08d453dd837fb737d84532901bc8f2de5a96f63dbd3aba24f56059b"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/checkpoints/10_scene.blend",
+      "bytes": 255846441,
+      "sha256": "9ca5b97cda57c0c3cf8e9d452355db6f8e96e6c287acce91f994abaf000410b4",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/10_scene.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "258408c976ce15a2f226b6feb961f69ab13069e2e93d9dd610aa88f15489ffd4"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/10_scene.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "7d53f0ae4363386e832753e35267f67a959d259df3cbfca7232254128b47e109"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/10_scene.blend/0002.part",
+          "bytes": 50331648,
+          "sha256": "dc035c97b3e04a38d918ffded96917fbe33e925e09a2c546bb799056655677af"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/10_scene.blend/0003.part",
+          "bytes": 50331648,
+          "sha256": "ba31edae346a32a4c989eae298a65175b1bec69559ecdeb91505599cef0a8757"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/10_scene.blend/0004.part",
+          "bytes": 50331648,
+          "sha256": "eb84dbe818a697a3d1331cacdac8f6355eaaf98619ec9afd12050bc7b95a7e38"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/10_scene.blend/0005.part",
+          "bytes": 4188201,
+          "sha256": "7c1c4813ae85a16e5547f3c220748c926b864ebc50f86bef6eca149b684902fb"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/checkpoints/11_scene.blend",
+      "bytes": 255846441,
+      "sha256": "b002b4ea1a0d6a67249d72d77ed837c26c0f8f4d26b93fc44dd3930d5df7a5ec",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/11_scene.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "d5cd63b896ace87614016097a20c63d97f8b74cdbb8685f9c82c4cdd68d0b533"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/11_scene.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "acfb1b8863099757be8b3a2db3a54d0bcbb5a0ff6f23f30479fd7f4c2fb8f335"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/11_scene.blend/0002.part",
+          "bytes": 50331648,
+          "sha256": "cb627e6f3bee0c4d3ba752fa7804f35f00bf202a92a6547af36a728a2096fd0f"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/11_scene.blend/0003.part",
+          "bytes": 50331648,
+          "sha256": "d8c4164a4d8be22c77d2e06731db0299b9534a0da33195ce1b358ad521f14ad9"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/11_scene.blend/0004.part",
+          "bytes": 50331648,
+          "sha256": "d3387ae8e2ed326f4b11844f12ea0a991167b8c69e6c8c412d5200087b499465"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/checkpoints/11_scene.blend/0005.part",
+          "bytes": 4188201,
+          "sha256": "c27d6e9c3ece3c8450c799b0b4a26eb7c55295eb42f6c257edb5bcd1f6e4de02"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/Tropical_Archipelago.blend",
+      "bytes": 267770528,
+      "sha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/Tropical_Archipelago.blend/0000.part",
+          "bytes": 50331648,
+          "sha256": "a3f698cb669a5c9451609eb699a519ff1beca45d0cb277ee96c864923b0d8c94"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/Tropical_Archipelago.blend/0001.part",
+          "bytes": 50331648,
+          "sha256": "2395b32db505882e08d675c8ae001db655f27f22008abeebc29a32c9a0cda96f"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/Tropical_Archipelago.blend/0002.part",
+          "bytes": 50331648,
+          "sha256": "48853aff3935d48c254d17566ad300e6b701e1b12d2967a5ff2e9c2dcea60342"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/Tropical_Archipelago.blend/0003.part",
+          "bytes": 50331648,
+          "sha256": "eb4a2b1fef4364d4db0481fcd8b2a2cb14ba06ecc4feb1d1d2babd6693360d18"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/Tropical_Archipelago.blend/0004.part",
+          "bytes": 50331648,
+          "sha256": "f2a62e26409c3fc97da3c9e1e47364b635a554816c50a4d54daff9f17eec4b6a"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/Tropical_Archipelago.blend/0005.part",
+          "bytes": 16112288,
+          "sha256": "c8ad59f7d154157b6f4725156d7b8ee8708a5931ba54b52a18aaa96a90e9f2cc"
+        }
+      ]
+    },
+    {
+      "path": "artifacts/tropical_archipelago/viewer/public/assets/scene.bin",
+      "bytes": 175542888,
+      "sha256": "36bba42e727bd53ebc80e118f79d2276d9edfc718614f79abd09c51e96812abc",
+      "parts": [
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/viewer/public/assets/scene.bin/0000.part",
+          "bytes": 50331648,
+          "sha256": "37c90a0265cc4e0361f9dcfb895154878a9d41992a6acb281da10ae357d2b29a"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/viewer/public/assets/scene.bin/0001.part",
+          "bytes": 50331648,
+          "sha256": "fc6f81ce86d32167f9be2183b468b165a35b239164b82a45a00724e09a983911"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/viewer/public/assets/scene.bin/0002.part",
+          "bytes": 50331648,
+          "sha256": "1dbc4d78ba74ddf1195cbb15a69738df1fdaf9fc2238bf46e1341425fe7c3484"
+        },
+        {
+          "path": "large-assets/artifacts/tropical_archipelago/viewer/public/assets/scene.bin/0003.part",
+          "bytes": 24547944,
+          "sha256": "bdeabf553d60805d0b0c0ec812164dc27769ce52bd8c35605cff7fbf41a6288f"
+        }
+      ]
+    }
+  ]
+}

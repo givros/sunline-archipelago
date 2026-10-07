@@ -1,0 +1,273 @@
+{
+  "broadleaf": [
+    {
+      "id": "PROTO_Broadleaf_0",
+      "vertices": 21614,
+      "faces": 15588,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_1",
+      "vertices": 21624,
+      "faces": 15598,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_2",
+      "vertices": 21614,
+      "faces": 15588,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_3",
+      "vertices": 21624,
+      "faces": 15598,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_4",
+      "vertices": 21614,
+      "faces": 15588,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_5",
+      "vertices": 21604,
+      "faces": 15578,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_6",
+      "vertices": 21624,
+      "faces": 15598,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Broadleaf_7",
+      "vertices": 21614,
+      "faces": 15588,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    }
+  ],
+  "palm": [
+    {
+      "id": "PROTO_CoconutPalm_0",
+      "vertices": 10984,
+      "faces": 7804,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoconutPalm_1",
+      "vertices": 11184,
+      "faces": 7924,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoconutPalm_2",
+      "vertices": 10874,
+      "faces": 7734,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoconutPalm_3",
+      "vertices": 11064,
+      "faces": 7852,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoconutPalm_4",
+      "vertices": 11244,
+      "faces": 7960,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoconutPalm_5",
+      "vertices": 10914,
+      "faces": 7758,
+      "components": 6,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    }
+  ],
+  "fern": [
+    {
+      "id": "PROTO_Fern_0",
+      "vertices": 3916,
+      "faces": 2827,
+      "components": 2,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Fern_1",
+      "vertices": 3916,
+      "faces": 2827,
+      "components": 2,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Fern_2",
+      "vertices": 3916,
+      "faces": 2827,
+      "components": 2,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    }
+  ],
+  "shrub": [
+    {
+      "id": "PROTO_CoastalShrub_0",
+      "vertices": 1728,
+      "faces": 1248,
+      "components": 2,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoastalShrub_1",
+      "vertices": 1728,
+      "faces": 1248,
+      "components": 2,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_CoastalShrub_2",
+      "vertices": 1728,
+      "faces": 1248,
+      "components": 2,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    }
+  ],
+  "rock": [
+    {
+      "id": "PROTO_Limestone_0",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_1",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_2",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_3",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_4",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_5",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_6",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_7",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    },
+    {
+      "id": "PROTO_Limestone_8",
+      "vertices": 727,
+      "faces": 222,
+      "components": 1,
+      "finite_vertices": true,
+      "zero_face_normals": 0,
+      "zero_area_faces": 0
+    }
+  ]
+}

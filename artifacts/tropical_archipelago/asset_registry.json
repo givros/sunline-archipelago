@@ -1,0 +1,4634 @@
+{
+  "source_sha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+  "provenance": [
+    {
+      "source": "Original procedural geometry created for this project",
+      "license": "Original project assets",
+      "scope": "Terrain, structures, rolling stock, vessels, vegetation and props"
+    },
+    {
+      "source": "references/primary_layout.png",
+      "scope": "User-provided primary layout reference; not a backdrop or substitute for geometry"
+    }
+  ],
+  "assets": [
+    {
+      "id": "TRAIN_CAR_0_0",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        126.00012969970703,
+        260.8207702636719,
+        18.0
+      ],
+      "components": 177,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_0_1",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        107.69012451171875,
+        265.8941955566406,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_0_2",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        89.31742095947266,
+        270.73388671875,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_0_3",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        70.8263931274414,
+        275.09393310546875,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_0_4",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        52.207923889160156,
+        278.87750244140625,
+        18.0
+      ],
+      "components": 177,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_0",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        17.223567962646484,
+        -47.941856384277344,
+        18.0
+      ],
+      "components": 177,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_1",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        34.462867736816406,
+        -39.95402526855469,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_2",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        51.63611602783203,
+        -31.82573699951172,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_3",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        68.75845336914062,
+        -23.590187072753906,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_4",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        85.87117767333984,
+        -15.33480453491211,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_5",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        102.86314392089844,
+        -6.835272789001465,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_6",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        119.58881378173828,
+        2.1734602451324463,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_7",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        135.94532775878906,
+        11.836692810058594,
+        18.0
+      ],
+      "components": 152,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_CAR_1_8",
+      "type": "train_car",
+      "kind": "",
+      "location": [
+        151.97531127929688,
+        22.034038543701172,
+        18.0
+      ],
+      "components": 177,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_0_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        120.41574096679688,
+        262.38751220703125,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_0_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        131.29566955566406,
+        259.3350830078125,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_1_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        102.09402465820312,
+        267.4185791015625,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_1_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        112.99676513671875,
+        264.44866943359375,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_2_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        83.69425201416016,
+        272.1551208496094,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_2_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        94.64973449707031,
+        269.3861083984375,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_3_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        65.1578369140625,
+        276.32171630859375,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_3_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        76.20175170898438,
+        273.92962646484375,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_4_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        57.90403747558594,
+        277.78466796875,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_0_4_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        46.806434631347656,
+        279.913818359375,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_0_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        22.488367080688477,
+        -45.508365631103516,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_0_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        12.231084823608398,
+        -50.249481201171875,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_1_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        39.72013473510742,
+        -37.50429916381836,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_1_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        29.47753143310547,
+        -42.277042388916016,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_2_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        56.86089324951172,
+        -29.30746078491211,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_2_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        46.68159103393555,
+        -34.2137565612793,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_3_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        73.9890365600586,
+        -21.083988189697266,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_3_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        63.798423767089844,
+        -25.966754913330078,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_4_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        91.08415222167969,
+        -12.792187690734863,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_4_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        80.92784118652344,
+        -17.745906829833984,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_5_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        108.0186996459961,
+        -4.178162574768066,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_5_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        97.97425079345703,
+        -9.35494613647461,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_6_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        124.63717651367188,
+        5.028988361358643,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_6_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        114.80156707763672,
+        -0.5343677997589111,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_7_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        140.8848114013672,
+        14.876686096191406,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_7_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        131.26133728027344,
+        8.953940391540527,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_8_FRONT",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        147.1262969970703,
+        18.851722717285156,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_BOGIE_1_8_REAR",
+      "type": "train_bogie",
+      "kind": "",
+      "location": [
+        156.57350158691406,
+        25.051748275756836,
+        18.0
+      ],
+      "components": 21,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_0",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        116.8544921875,
+        263.3913269042969,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_1",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        98.52540588378906,
+        268.39642333984375,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_2",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        80.1081771850586,
+        273.0685119628906,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_0_3",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        61.5391845703125,
+        277.09356689453125,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_0",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        25.849239349365234,
+        -43.960914611816406,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_1",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        43.07545471191406,
+        -35.944664001464844,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_2",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        60.19264602661133,
+        -27.69831085205078,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_3",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        77.32888793945312,
+        -19.491600036621094,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_4",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        94.41304016113281,
+        -11.176534652709961,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_5",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        111.3116455078125,
+        -2.489468574523926,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_6",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        127.85408020019531,
+        6.857663154602051,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "TRAIN_DRAWBAR_1_7",
+      "type": "train_drawbar",
+      "kind": "",
+      "location": [
+        144.03262329101562,
+        16.821630477905273,
+        18.940000534057617
+      ],
+      "components": 1,
+      "editable": true
+    },
+    {
+      "id": "BOAT_00_yacht",
+      "type": "boat",
+      "kind": "yacht",
+      "location": [
+        -408.8500061035156,
+        140.22000122070312,
+        0.0
+      ],
+      "components": 165,
+      "editable": true
+    },
+    {
+      "id": "BOAT_01_yacht",
+      "type": "boat",
+      "kind": "yacht",
+      "location": [
+        434.8500061035156,
+        65.5999984741211,
+        0.0
+      ],
+      "components": 165,
+      "editable": true
+    },
+    {
+      "id": "BOAT_02_speed",
+      "type": "boat",
+      "kind": "speed",
+      "location": [
+        -15.600000381469727,
+        -357.5199890136719,
+        0.0
+      ],
+      "components": 137,
+      "editable": true
+    },
+    {
+      "id": "BOAT_03_speed",
+      "type": "boat",
+      "kind": "speed",
+      "location": [
+        -362.04998779296875,
+        -277.9800109863281,
+        0.0
+      ],
+      "components": 137,
+      "editable": true
+    },
+    {
+      "id": "BOAT_04_taxi",
+      "type": "boat",
+      "kind": "taxi",
+      "location": [
+        -390.0,
+        -298.4800109863281,
+        0.0
+      ],
+      "components": 147,
+      "editable": true
+    },
+    {
+      "id": "BOAT_05_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        -342.9839782714844,
+        -312.1000061035156,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_06_yacht",
+      "type": "boat",
+      "kind": "yacht",
+      "location": [
+        -328.52410888671875,
+        -290.48358154296875,
+        0.0
+      ],
+      "components": 165,
+      "editable": true
+    },
+    {
+      "id": "BOAT_07_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        -188.13702392578125,
+        -333.87115478515625,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "BOAT_08_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        -213.85000610351562,
+        -281.260009765625,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_09_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        -160.5500030517578,
+        -262.3999938964844,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "BOAT_10_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        -258.70001220703125,
+        -277.9800109863281,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_11_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        -423.1499938964844,
+        -208.27999877929688,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "BOAT_12_speed",
+      "type": "boat",
+      "kind": "speed",
+      "location": [
+        -290.54998779296875,
+        338.6600036621094,
+        0.0
+      ],
+      "components": 137,
+      "editable": true
+    },
+    {
+      "id": "BOAT_13_sail",
+      "type": "boat",
+      "kind": "sail",
+      "location": [
+        81.9000015258789,
+        171.3800048828125,
+        0.0
+      ],
+      "components": 179,
+      "editable": true
+    },
+    {
+      "id": "BOAT_14_sail",
+      "type": "boat",
+      "kind": "sail",
+      "location": [
+        -92.30000305175781,
+        86.91999816894531,
+        0.0
+      ],
+      "components": 179,
+      "editable": true
+    },
+    {
+      "id": "BOAT_15_sail",
+      "type": "boat",
+      "kind": "sail",
+      "location": [
+        122.19999694824219,
+        419.8399963378906,
+        0.0
+      ],
+      "components": 179,
+      "editable": true
+    },
+    {
+      "id": "BOAT_16_sail",
+      "type": "boat",
+      "kind": "sail",
+      "location": [
+        109.8499984741211,
+        346.0400085449219,
+        0.0
+      ],
+      "components": 179,
+      "editable": true
+    },
+    {
+      "id": "BOAT_17_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        364.0,
+        126.27999877929688,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_18_taxi",
+      "type": "boat",
+      "kind": "taxi",
+      "location": [
+        430.95001220703125,
+        -27.8799991607666,
+        0.0
+      ],
+      "components": 147,
+      "editable": true
+    },
+    {
+      "id": "BOAT_19_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        419.25,
+        146.77999877929688,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "BOAT_20_speed",
+      "type": "boat",
+      "kind": "speed",
+      "location": [
+        142.35000610351562,
+        10.65999984741211,
+        0.0
+      ],
+      "components": 137,
+      "editable": true
+    },
+    {
+      "id": "BOAT_21_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        424.45001220703125,
+        -241.89999389648438,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_22_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        59.150001525878906,
+        10.65999984741211,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "BOAT_23_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        -153.03671264648438,
+        245.4452667236328,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "BOAT_24_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        -242.4499969482422,
+        226.32000732421875,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_25_fishing",
+      "type": "boat",
+      "kind": "fishing",
+      "location": [
+        -358.79803466796875,
+        -17.14126968383789,
+        0.0
+      ],
+      "components": 161,
+      "editable": true
+    },
+    {
+      "id": "BOAT_26_speed",
+      "type": "boat",
+      "kind": "speed",
+      "location": [
+        371.1499938964844,
+        -131.1999969482422,
+        0.0
+      ],
+      "components": 137,
+      "editable": true
+    },
+    {
+      "id": "BOAT_27_utility",
+      "type": "boat",
+      "kind": "utility",
+      "location": [
+        351.312744140625,
+        -322.062744140625,
+        0.0
+      ],
+      "components": 154,
+      "editable": true
+    },
+    {
+      "id": "PORTO_PLAZA_furniture",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -282.1000061035156,
+        -125.45999908447266,
+        5.045000076293945
+      ],
+      "components": 20,
+      "editable": true
+    },
+    {
+      "id": "AURELIO_PLAZA_furniture",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        284.04998779296875,
+        255.83999633789062,
+        7.045000076293945
+      ],
+      "components": 4,
+      "editable": true
+    },
+    {
+      "id": "VILLA_001",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -368.54998779296875,
+        -127.0999984741211,
+        4.5301971435546875
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_002",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -345.1499938964844,
+        -84.45999908447266,
+        2.31060791015625
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_003",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -310.04998779296875,
+        -75.44000244140625,
+        4.3603515625
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_004",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -276.25,
+        -85.27999877929688,
+        4.999969482421875
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_005",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -244.39999389648438,
+        -111.5199966430664,
+        6.5488739013671875
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_006",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -226.1999969482422,
+        -145.9600067138672,
+        4.415924072265625
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_007",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -250.89999389648438,
+        -174.66000366210938,
+        2.969146728515625
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_008",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -287.29998779296875,
+        -185.32000732421875,
+        2.380706787109375
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_009",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -323.04998779296875,
+        -172.1999969482422,
+        3.1977081298828125
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_010",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -351.0,
+        -157.44000244140625,
+        2.7764892578125
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_011",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -380.25,
+        -173.83999633789062,
+        2.388702392578125
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_012",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -326.95001220703125,
+        -214.02000427246094,
+        1.697113037109375
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_013",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -274.29998779296875,
+        -223.0399932861328,
+        2.170806884765625
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_014",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -215.14999389648438,
+        -210.74000549316406,
+        3.2862548828125
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_015",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -183.3000030517578,
+        -168.10000610351562,
+        4.1871490478515625
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_016",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -157.3000030517578,
+        -202.5399932861328,
+        18.327041625976562
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_017",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -120.9000015258789,
+        -177.94000244140625,
+        19.08319091796875
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_018",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        -139.10000610351562,
+        -144.32000732421875,
+        11.922286987304688
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_019",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -238.5500030517578,
+        12.300000190734863,
+        24.940536499023438
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_020",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -207.35000610351562,
+        22.959999084472656,
+        20.494476318359375
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_021",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -180.0500030517578,
+        0.8199999928474426,
+        32.30912780761719
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_022",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -139.10000610351562,
+        -2.4600000381469727,
+        8.980880737304688
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_023",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -114.4000015258789,
+        -33.619998931884766,
+        9.356048583984375
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_024",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -79.94999694824219,
+        -67.23999786376953,
+        9.859634399414062
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_025",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -261.29998779296875,
+        -25.420000076293945,
+        28.54730224609375
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_026",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -219.0500030517578,
+        -35.2599983215332,
+        57.279815673828125
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_027",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        228.8000030517578,
+        292.739990234375,
+        3.141845703125
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_028",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        250.89999389648438,
+        292.739990234375,
+        4.4368133544921875
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_029",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        266.5,
+        272.239990234375,
+        7.0000152587890625
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_030",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        239.1999969482422,
+        255.02000427246094,
+        6.9999847412109375
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_031",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        263.8999938964844,
+        240.25999450683594,
+        7.0000152587890625
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_032",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        304.8500061035156,
+        236.16000366210938,
+        7.0
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_033",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        328.8999938964844,
+        249.27999877929688,
+        7.0
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_034",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        295.75,
+        294.3800048828125,
+        12.31072998046875
+      ],
+      "components": 36,
+      "editable": true
+    },
+    {
+      "id": "VILLA_035",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        277.54998779296875,
+        303.3999938964844,
+        11.167984008789062
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_036",
+      "type": "tropical_architecture",
+      "kind": "villa",
+      "location": [
+        242.4499969482422,
+        318.9800109863281,
+        4.83123779296875
+      ],
+      "components": 40,
+      "editable": true
+    },
+    {
+      "id": "VILLA_037",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        191.75,
+        -117.26000213623047,
+        22.258071899414062
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_038",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        218.39999389648438,
+        -153.33999633789062,
+        28.521011352539062
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_039",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        239.1999969482422,
+        -178.75999450683594,
+        11.1376953125
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_040",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        194.35000610351562,
+        -228.77999877929688,
+        3.47772216796875
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_041",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        209.9499969482422,
+        -281.260009765625,
+        4.7131500244140625
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_042",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        244.39999389648438,
+        -280.44000244140625,
+        6.9083099365234375
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_043",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        259.3500061035156,
+        -241.0800018310547,
+        19.066864013671875
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_044",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        182.64999389648438,
+        -195.97999572753906,
+        10.526046752929688
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_045",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -98.80000305175781,
+        400.9800109863281,
+        20.225357055664062
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_046",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -27.299999237060547,
+        391.9599914550781,
+        17.76190185546875
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_047",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -18.200000762939453,
+        344.3999938964844,
+        6.5875244140625
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_048",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -86.44999694824219,
+        291.9200134277344,
+        28.508865356445312
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_049",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -314.6000061035156,
+        231.24000549316406,
+        18.878936767578125
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "VILLA_050",
+      "type": "tropical_architecture",
+      "kind": "cottage",
+      "location": [
+        -353.6000061035156,
+        390.32000732421875,
+        10.859893798828125
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "Porto_Grocer",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -324.3500061035156,
+        -100.86000061035156,
+        4.280362606048584
+      ],
+      "components": 46,
+      "editable": true
+    },
+    {
+      "id": "Porto_Market_Hall",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -296.3999938964844,
+        -98.4000015258789,
+        5.1144537925720215
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "Porto_Harbor_Inn",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -248.9499969482422,
+        -199.25999450683594,
+        3.009366512298584
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "Porto_Marine_Workshop",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -189.14999389648438,
+        -239.44000244140625,
+        3.4532294273376465
+      ],
+      "components": 46,
+      "editable": true
+    },
+    {
+      "id": "Porto_Sol_Parish",
+      "type": "tropical_architecture",
+      "kind": "coastal_church",
+      "location": [
+        -230.75,
+        -93.4800033569336,
+        6.9999847412109375
+      ],
+      "components": 37,
+      "editable": true
+    },
+    {
+      "id": "San_Aurelio_Parish",
+      "type": "tropical_architecture",
+      "kind": "coastal_church",
+      "location": [
+        306.79998779296875,
+        273.8800048828125,
+        6.9720611572265625
+      ],
+      "components": 37,
+      "editable": true
+    },
+    {
+      "id": "Porto_Sol_station",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -205.726318359375,
+        -166.937255859375,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "Station access ramp",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_01",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -224.25,
+        360.79998779296875,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_02",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -205.39999389648438,
+        364.0799865722656,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_03",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -182.0,
+        350.9599914550781,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_04",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -172.89999389648438,
+        328.0,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_05",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -185.25,
+        305.0400085449219,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_06",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -212.5500030517578,
+        300.1199951171875,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_07",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -225.5500030517578,
+        321.44000244140625,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_08",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -234.0,
+        342.760009765625,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_HOUSE_09",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -207.35000610351562,
+        387.8599853515625,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_SPINE_1",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_SPINE_2",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_01",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_02",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_03",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 4,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_04",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_05",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_06",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_07",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 4,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_08",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTHWEST_BRANCH_09",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_HOUSE_01",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        2.5999999046325684,
+        417.3800048828125,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_HOUSE_02",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        24.700000762939453,
+        412.4599914550781,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_HOUSE_03",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        47.45000076293945,
+        405.0799865722656,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_HOUSE_04",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        64.3499984741211,
+        388.67999267578125,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_HOUSE_05",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        81.25,
+        376.3800048828125,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_HOUSE_06",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        99.44999694824219,
+        380.4800109863281,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_01",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_02",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_03",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_HOUSE_01",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -359.45001220703125,
+        195.97999572753906,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_HOUSE_02",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -339.95001220703125,
+        180.39999389648438,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_HOUSE_03",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -314.6000061035156,
+        169.74000549316406,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_HOUSE_04",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -289.8999938964844,
+        180.39999389648438,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_HOUSE_05",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -269.1000061035156,
+        195.97999572753906,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_HOUSE_06",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        -265.20001220703125,
+        250.10000610351562,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_SPINE_2",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_BRANCH_01",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_BRANCH_02",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_BRANCH_03",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_BRANCH_04",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_BRANCH_05",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_BRANCH_06",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "Palm_Crescent_Shelter",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -315.25,
+        200.89999389648438,
+        0.0
+      ],
+      "components": 11,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_01",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        64.3499984741211,
+        118.9000015258789,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_02",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        96.8499984741211,
+        129.55999755859375,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_03",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        141.6999969482422,
+        126.27999877929688,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_04",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        174.1999969482422,
+        104.13999938964844,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_05",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        154.0500030517578,
+        85.27999877929688,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_06",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        104.6500015258789,
+        91.83999633789062,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_07",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        73.44999694824219,
+        75.44000244140625,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_08",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        39.0,
+        85.27999877929688,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_09",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        14.949999809265137,
+        63.959999084472656,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_10",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        32.5,
+        29.520000457763672,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_11",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        72.80000305175781,
+        30.34000015258789,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_HOUSE_12",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        101.4000015258789,
+        22.959999084472656,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_SPINE_2",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_SPINE_3",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_01",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_02",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_03",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_04",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_05",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_06",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_07",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_08",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_09",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_10",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_11",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_BRANCH_12",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_01",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        343.20001220703125,
+        -176.3000030517578,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_02",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        373.75,
+        -169.74000549316406,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_03",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        402.3500061035156,
+        -196.8000030517578,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_04",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        408.8500061035156,
+        -223.86000061035156,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_05",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        389.3500061035156,
+        -247.63999938964844,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_06",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        374.3999938964844,
+        -273.05999755859375,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_07",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        360.1000061035156,
+        -299.29998779296875,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_08",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        323.70001220703125,
+        -333.739990234375,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_HOUSE_09",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        340.6000061035156,
+        -356.70001220703125,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_SPINE_1",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_SPINE_2",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_01",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_02",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_03",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_04",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_HOUSE_01",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        209.9499969482422,
+        -66.41999816894531,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_HOUSE_02",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        258.70001220703125,
+        -70.5199966430664,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_HOUSE_03",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        327.6000061035156,
+        -104.95999908447266,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_HOUSE_04",
+      "type": "tropical_architecture",
+      "kind": "stilt",
+      "location": [
+        352.29998779296875,
+        -129.55999755859375,
+        0.0
+      ],
+      "components": 43,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_SPINE_1",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_SPINE_2",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_SPINE_3",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_BRANCH_01",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_BRANCH_02",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_BRANCH_03",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_NORTH_BRANCH_04",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_MAIN",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_MAIN_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_MAIN_loading_apron",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_MAIN_arrival_props",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -195.64999389648438,
+        -338.6600036621094,
+        2.4000000953674316
+      ],
+      "components": 17,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_CROSS",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_CROSS_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_CROSS_loading_apron",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_CROSS_arrival_props",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -176.8000030517578,
+        -307.5,
+        2.4000000953674316
+      ],
+      "components": 17,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_WEST_shore_connection",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_WEST",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_WEST_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_WEST_loading_apron",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_WEST_arrival_props",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -354.25,
+        -321.44000244140625,
+        2.4000000953674316
+      ],
+      "components": 17,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_FISH_shore_connection",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_FISH",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_FISH_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_EAST",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PORTO_EAST_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_TERN",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_TERN_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PALM",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_PALM_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_loading_apron",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_arrival_props",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        328.8999938964844,
+        121.36000061035156,
+        2.4000000953674316
+      ],
+      "components": 17,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_EAST_shore_connection",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_EAST",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_EAST_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_EAST_loading_apron",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_AURELIO_EAST_arrival_props",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        457.6000061035156,
+        156.6199951171875,
+        2.4000000953674316
+      ],
+      "components": 17,
+      "editable": true
+    },
+    {
+      "id": "DOCK_EMERALD_shore_connection",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_EMERALD",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_EMERALD_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "DOCK_TERN_SHORE_shore_connection",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_TERN_SHORE",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "DOCK_TERN_SHORE_mooring",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "STILT_WEST_SPINE_1",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_SPINE_3",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_05",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_06",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_08",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 4,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_09",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_SPINE_1",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_04",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_05",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_NORTH_BRANCH_06",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "STILT_LAGOON_SPINE_1",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 7,
+      "editable": true
+    },
+    {
+      "id": "Lagoon_Circle_Pavilion",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        118.94999694824219,
+        66.41999816894531,
+        0.0
+      ],
+      "components": 11,
+      "editable": true
+    },
+    {
+      "id": "Lagoon_Rotunda_Substructure",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        118.94999694824219,
+        66.41999816894531,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "Porto_Shaded_Market",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        -282.1000061035156,
+        -125.45999908447266,
+        5.045000076293945
+      ],
+      "components": 10,
+      "editable": true
+    },
+    {
+      "id": "Porto_Fishmonger",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -354.25,
+        -211.55999755859375,
+        3.2276947498321533
+      ],
+      "components": 46,
+      "editable": true
+    },
+    {
+      "id": "Porto_Boathouse",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -296.3999938964844,
+        -245.17999267578125,
+        2.497058153152466
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "Porto_Ferry_House",
+      "type": "tropical_architecture",
+      "kind": "shop",
+      "location": [
+        -241.14999389648438,
+        -245.17999267578125,
+        2.772296190261841
+      ],
+      "components": 42,
+      "editable": true
+    },
+    {
+      "id": "STILT_CORAL_BRANCH_07",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 5,
+      "editable": true
+    },
+    {
+      "id": "Palm_Crescent_public_approach",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 4,
+      "editable": true
+    },
+    {
+      "id": "Palm_Crescent_entry_guards",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 2,
+      "editable": true
+    },
+    {
+      "id": "Palm_Crescent_grade_joists",
+      "type": "tropical_architecture",
+      "kind": "",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "components": 1,
+      "editable": true
+    }
+  ],
+  "inventory": {
+    "islands": 10,
+    "buildings": 103,
+    "building_kinds": {
+      "villa": 28,
+      "cottage": 22,
+      "shop": 7,
+      "stilt": 46
+    },
+    "church_landmarks": 2,
+    "boats": 28,
+    "boat_kinds": {
+      "yacht": 3,
+      "speed": 5,
+      "taxi": 2,
+      "fishing": 7,
+      "utility": 7,
+      "sail": 4
+    },
+    "vegetation_instances": {
+      "palm": 520,
+      "broadleaf": 1417,
+      "rock": 419,
+      "shrub": 801,
+      "fern": 459
+    },
+    "vegetation_by_region": {
+      "REG_MAIN": {
+        "palm": 207,
+        "broadleaf": 528,
+        "rock": 173,
+        "shrub": 338,
+        "fern": 195
+      },
+      "REG_NORTHWEST": {
+        "palm": 13,
+        "broadleaf": 38,
+        "rock": 10,
+        "shrub": 21,
+        "fern": 12
+      },
+      "REG_NORTH": {
+        "palm": 55,
+        "broadleaf": 205,
+        "rock": 51,
+        "shrub": 90,
+        "fern": 51
+      },
+      "REG_NORTHEAST": {
+        "palm": 85,
+        "broadleaf": 297,
+        "rock": 75,
+        "shrub": 138,
+        "fern": 79
+      },
+      "REG_WEST_ROCK": {
+        "palm": 8,
+        "broadleaf": 24,
+        "rock": 6,
+        "shrub": 13,
+        "fern": 7
+      },
+      "REG_WEST_LAGOON": {
+        "palm": 25,
+        "broadleaf": 32,
+        "rock": 9,
+        "shrub": 19,
+        "fern": 11
+      },
+      "REG_CENTER_CAY": {
+        "palm": 8,
+        "broadleaf": 10,
+        "rock": 6,
+        "shrub": 14,
+        "fern": 8
+      },
+      "REG_WEST_SOUTH": {
+        "palm": 9,
+        "broadleaf": 29,
+        "rock": 7,
+        "shrub": 16,
+        "fern": 9
+      },
+      "REG_CENTRAL_PALMS": {
+        "palm": 31,
+        "broadleaf": 13,
+        "rock": 11,
+        "shrub": 22,
+        "fern": 13
+      },
+      "REG_SOUTHEAST": {
+        "palm": 79,
+        "broadleaf": 241,
+        "rock": 71,
+        "shrub": 130,
+        "fern": 74
+      }
+    },
+    "rail_routes": 3,
+    "dock_assemblies": 11,
+    "dock_loading_aprons": 5,
+    "quay_ladder_berths": 6,
+    "wake_meshes": 36,
+    "stilt_districts": {
+      "STILT_NORTHWEST": 9,
+      "STILT_NORTH": 6,
+      "STILT_WEST": 6,
+      "STILT_LAGOON": 12,
+      "STILT_CORAL": 9,
+      "STILT_CORAL_NORTH": 4
+    }
+  },
+  "visible_mesh_objects": 33758,
+  "unique_meshes": 5435,
+  "instanced_triangles": 49984497,
+  "shared_meshes": [
+    {
+      "id": "TRAIN_CAR_0_0_Underframe_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 432
+    },
+    {
+      "id": "TRAIN_CAR_0_0_Axle_Mesh",
+      "vertices": 24,
+      "triangles": 44,
+      "linked_users": 56
+    },
+    {
+      "id": "TRAIN_CAR_0_0_RailWheel_Mesh",
+      "vertices": 48,
+      "triangles": 92,
+      "linked_users": 112
+    },
+    {
+      "id": "TRAIN_CAR_0_0_WheelFlange_Mesh",
+      "vertices": 48,
+      "triangles": 92,
+      "linked_users": 112
+    },
+    {
+      "id": "TRAIN_CAR_0_0_WheelHub_Mesh",
+      "vertices": 32,
+      "triangles": 60,
+      "linked_users": 112
+    },
+    {
+      "id": "TRAIN_CAR_0_0_Suspension_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 164
+    },
+    {
+      "id": "TRAIN_CAR_0_0_BogieOuterBeam_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 308
+    },
+    {
+      "id": "TRAIN_CAR_0_0_BlueLowerStripe_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 60
+    },
+    {
+      "id": "TRAIN_CAR_0_0_PassengerWindow_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 300
+    },
+    {
+      "id": "TRAIN_CAR_0_0_WindowDivider_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 244
+    },
+    {
+      "id": "TRAIN_CAR_0_0_PassengerDoor_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 112
+    },
+    {
+      "id": "TRAIN_CAR_0_0_WindscreenRubber_00_Mesh",
+      "vertices": 16,
+      "triangles": 28,
+      "linked_users": 80
+    },
+    {
+      "id": "TRAIN_CAR_0_0_WindshieldWiper_Mesh",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 8
+    },
+    {
+      "id": "TRAIN_CAR_0_0_NoseBlueSweep_00_Mesh",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 24
+    },
+    {
+      "id": "TRAIN_CAR_0_1_EditableComponents_StreamlinedBody_Mesh",
+      "vertices": 60,
+      "triangles": 116,
+      "linked_users": 10
+    },
+    {
+      "id": "TRAIN_DrawbarSharedMesh",
+      "vertices": 96,
+      "triangles": 176,
+      "linked_users": 12
+    },
+    {
+      "id": "BOAT_00_yacht_Gunwale_00_Mesh",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 560
+    },
+    {
+      "id": "BOAT_00_yacht_WaterlineStripe_00_Mesh",
+      "vertices": 16,
+      "triangles": 28,
+      "linked_users": 757
+    },
+    {
+      "id": "BOAT_00_yacht_DeckPlankJoint_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 467
+    },
+    {
+      "id": "BOAT_00_yacht_BowSafetyRail_00_Mesh",
+      "vertices": 16,
+      "triangles": 28,
+      "linked_users": 400
+    },
+    {
+      "id": "BOAT_00_yacht_RailStanchion_Mesh",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 835
+    },
+    {
+      "id": "BOAT_00_yacht_Fender_Mesh",
+      "vertices": 24,
+      "triangles": 44,
+      "linked_users": 112
+    },
+    {
+      "id": "BOAT_00_yacht_FenderRope_Mesh",
+      "vertices": 12,
+      "triangles": 20,
+      "linked_users": 136
+    },
+    {
+      "id": "BOAT_00_yacht_MooringCleatBase_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 192
+    },
+    {
+      "id": "BOAT_00_yacht_CabinShell_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 69
+    },
+    {
+      "id": "BOAT_00_yacht_CabinRoof_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 9
+    },
+    {
+      "id": "BOAT_00_yacht_SideWindow_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 264
+    },
+    {
+      "id": "BOAT_00_yacht_NavigationLight_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 26
+    },
+    {
+      "id": "BOAT_00_yacht_BathingPlatform_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 66
+    },
+    {
+      "id": "BOAT_00_yacht_RadarArch_Mesh",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 6
+    },
+    {
+      "id": "BOAT_00_yacht_Lifebuoy_Mesh",
+      "vertices": 16,
+      "triangles": 28,
+      "linked_users": 207
+    },
+    {
+      "id": "BOAT_02_speed_TeakDeck_Mesh",
+      "vertices": 20,
+      "triangles": 18,
+      "linked_users": 5
+    },
+    {
+      "id": "BOAT_02_speed_OutboardPowerhead_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 59
+    },
+    {
+      "id": "BOAT_02_speed_PropellerBlade_Mesh",
+      "vertices": 12,
+      "triangles": 20,
+      "linked_users": 72
+    },
+    {
+      "id": "BOAT_02_speed_SeatBack_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 28
+    },
+    {
+      "id": "BOAT_04_taxi_PassengerDoor_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 6
+    },
+    {
+      "id": "BOAT_05_fishing_TeakDeck_Mesh",
+      "vertices": 20,
+      "triangles": 18,
+      "linked_users": 7
+    },
+    {
+      "id": "BOAT_05_fishing_CabinRoof_Mesh",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 14
+    },
+    {
+      "id": "BOAT_05_fishing_FishingRod_Mesh",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 14
+    },
+    {
+      "id": "BOAT_07_utility_SculptedHull_Mesh",
+      "vertices": 90,
+      "triangles": 158,
+      "linked_users": 5
+    },
+    {
+      "id": "BOAT_07_utility_TeakDeck_Mesh",
+      "vertices": 20,
+      "triangles": 18,
+      "linked_users": 7
+    },
+    {
+      "id": "BOAT_13_sail_StandingRigging_Mesh",
+      "vertices": 12,
+      "triangles": 20,
+      "linked_users": 16
+    },
+    {
+      "id": "Shared cube Creosote sleepers",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 5345
+    },
+    {
+      "id": "Shared cylinder ('Dark bronze safety rails', 8)",
+      "vertices": 16,
+      "triangles": 28,
+      "linked_users": 1103
+    },
+    {
+      "id": "Shared cube Rail polished steel",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 18
+    },
+    {
+      "id": "Shared cube Viaduct limestone ashlar",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 91
+    },
+    {
+      "id": "Shared cube Arch dressed voussoirs",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 575
+    },
+    {
+      "id": "Shared cube Tidal stone waterline",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 29
+    },
+    {
+      "id": "Shared cube Tunnel interior shade",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 18
+    },
+    {
+      "id": "Shared cube Turnout hardwood bearers",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 15
+    },
+    {
+      "id": "PROTO_CoconutPalm_2__trunk_collider.001",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 94
+    },
+    {
+      "id": "PROTO_CoconutPalm_2__upper_stem.001",
+      "vertices": 210,
+      "triangles": 416,
+      "linked_users": 94
+    },
+    {
+      "id": "PROTO_CoconutPalm_2__growth_rings.001",
+      "vertices": 680,
+      "triangles": 1224,
+      "linked_users": 94
+    },
+    {
+      "id": "PROTO_CoconutPalm_2__frond_ribs.001",
+      "vertices": 2044,
+      "triangles": 3408,
+      "linked_users": 94
+    },
+    {
+      "id": "PROTO_CoconutPalm_2__pinnate_leaflets.001",
+      "vertices": 7810,
+      "triangles": 8520,
+      "linked_users": 94
+    },
+    {
+      "id": "PROTO_CoconutPalm_2__coconut_cluster.001",
+      "vertices": 100,
+      "triangles": 180,
+      "linked_users": 94
+    },
+    {
+      "id": "PROTO_CoconutPalm_3__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 86
+    },
+    {
+      "id": "PROTO_CoconutPalm_3__upper_stem",
+      "vertices": 220,
+      "triangles": 436,
+      "linked_users": 86
+    },
+    {
+      "id": "PROTO_CoconutPalm_3__growth_rings",
+      "vertices": 860,
+      "triangles": 1548,
+      "linked_users": 86
+    },
+    {
+      "id": "PROTO_CoconutPalm_3__frond_ribs",
+      "vertices": 2044,
+      "triangles": 3408,
+      "linked_users": 86
+    },
+    {
+      "id": "PROTO_CoconutPalm_3__pinnate_leaflets",
+      "vertices": 7810,
+      "triangles": 8520,
+      "linked_users": 86
+    },
+    {
+      "id": "PROTO_CoconutPalm_3__coconut_cluster",
+      "vertices": 100,
+      "triangles": 180,
+      "linked_users": 86
+    },
+    {
+      "id": "PROTO_CoconutPalm_4__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 84
+    },
+    {
+      "id": "PROTO_CoconutPalm_4__upper_stem",
+      "vertices": 220,
+      "triangles": 436,
+      "linked_users": 84
+    },
+    {
+      "id": "PROTO_CoconutPalm_4__growth_rings",
+      "vertices": 1040,
+      "triangles": 1872,
+      "linked_users": 84
+    },
+    {
+      "id": "PROTO_CoconutPalm_4__frond_ribs",
+      "vertices": 2044,
+      "triangles": 3408,
+      "linked_users": 84
+    },
+    {
+      "id": "PROTO_CoconutPalm_4__pinnate_leaflets",
+      "vertices": 7810,
+      "triangles": 8520,
+      "linked_users": 84
+    },
+    {
+      "id": "PROTO_CoconutPalm_4__coconut_cluster",
+      "vertices": 100,
+      "triangles": 180,
+      "linked_users": 84
+    },
+    {
+      "id": "PROTO_CoconutPalm_1__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 85
+    },
+    {
+      "id": "PROTO_CoconutPalm_1__upper_stem",
+      "vertices": 220,
+      "triangles": 436,
+      "linked_users": 85
+    },
+    {
+      "id": "PROTO_CoconutPalm_1__growth_rings",
+      "vertices": 980,
+      "triangles": 1764,
+      "linked_users": 85
+    },
+    {
+      "id": "PROTO_CoconutPalm_1__frond_ribs",
+      "vertices": 2044,
+      "triangles": 3408,
+      "linked_users": 85
+    },
+    {
+      "id": "PROTO_CoconutPalm_1__pinnate_leaflets",
+      "vertices": 7810,
+      "triangles": 8520,
+      "linked_users": 85
+    },
+    {
+      "id": "PROTO_CoconutPalm_1__coconut_cluster",
+      "vertices": 100,
+      "triangles": 180,
+      "linked_users": 85
+    },
+    {
+      "id": "PROTO_CoconutPalm_0__trunk_collider.001",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 79
+    },
+    {
+      "id": "PROTO_CoconutPalm_0__upper_stem.001",
+      "vertices": 220,
+      "triangles": 436,
+      "linked_users": 79
+    },
+    {
+      "id": "PROTO_CoconutPalm_0__growth_rings.001",
+      "vertices": 780,
+      "triangles": 1404,
+      "linked_users": 79
+    },
+    {
+      "id": "PROTO_CoconutPalm_0__frond_ribs.001",
+      "vertices": 2044,
+      "triangles": 3408,
+      "linked_users": 79
+    },
+    {
+      "id": "PROTO_CoconutPalm_0__pinnate_leaflets.001",
+      "vertices": 7810,
+      "triangles": 8520,
+      "linked_users": 79
+    },
+    {
+      "id": "PROTO_CoconutPalm_0__coconut_cluster.001",
+      "vertices": 100,
+      "triangles": 180,
+      "linked_users": 79
+    },
+    {
+      "id": "PROTO_CoconutPalm_5__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 88
+    },
+    {
+      "id": "PROTO_CoconutPalm_5__upper_stem",
+      "vertices": 210,
+      "triangles": 416,
+      "linked_users": 88
+    },
+    {
+      "id": "PROTO_CoconutPalm_5__growth_rings",
+      "vertices": 720,
+      "triangles": 1296,
+      "linked_users": 88
+    },
+    {
+      "id": "PROTO_CoconutPalm_5__frond_ribs",
+      "vertices": 2044,
+      "triangles": 3408,
+      "linked_users": 88
+    },
+    {
+      "id": "PROTO_CoconutPalm_5__pinnate_leaflets",
+      "vertices": 7810,
+      "triangles": 8520,
+      "linked_users": 88
+    },
+    {
+      "id": "PROTO_CoconutPalm_5__coconut_cluster",
+      "vertices": 100,
+      "triangles": 180,
+      "linked_users": 88
+    },
+    {
+      "id": "PROTO_Broadleaf_0__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 156
+    },
+    {
+      "id": "PROTO_Broadleaf_0__upper_stem",
+      "vertices": 120,
+      "triangles": 236,
+      "linked_users": 156
+    },
+    {
+      "id": "PROTO_Broadleaf_0__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 156
+    },
+    {
+      "id": "PROTO_Broadleaf_0__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 156
+    },
+    {
+      "id": "PROTO_Broadleaf_0__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 156
+    },
+    {
+      "id": "PROTO_Broadleaf_0__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 156
+    },
+    {
+      "id": "PROTO_Broadleaf_5__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 179
+    },
+    {
+      "id": "PROTO_Broadleaf_5__upper_stem",
+      "vertices": 110,
+      "triangles": 216,
+      "linked_users": 179
+    },
+    {
+      "id": "PROTO_Broadleaf_5__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 179
+    },
+    {
+      "id": "PROTO_Broadleaf_5__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 179
+    },
+    {
+      "id": "PROTO_Broadleaf_5__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 179
+    },
+    {
+      "id": "PROTO_Broadleaf_5__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 179
+    },
+    {
+      "id": "PROTO_Broadleaf_3__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 175
+    },
+    {
+      "id": "PROTO_Broadleaf_3__upper_stem",
+      "vertices": 130,
+      "triangles": 256,
+      "linked_users": 175
+    },
+    {
+      "id": "PROTO_Broadleaf_3__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 175
+    },
+    {
+      "id": "PROTO_Broadleaf_3__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 175
+    },
+    {
+      "id": "PROTO_Broadleaf_3__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 175
+    },
+    {
+      "id": "PROTO_Broadleaf_3__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 175
+    },
+    {
+      "id": "PROTO_Broadleaf_4__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 178
+    },
+    {
+      "id": "PROTO_Broadleaf_4__upper_stem",
+      "vertices": 120,
+      "triangles": 236,
+      "linked_users": 178
+    },
+    {
+      "id": "PROTO_Broadleaf_4__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 178
+    },
+    {
+      "id": "PROTO_Broadleaf_4__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 178
+    },
+    {
+      "id": "PROTO_Broadleaf_4__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 178
+    },
+    {
+      "id": "PROTO_Broadleaf_4__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 178
+    },
+    {
+      "id": "PROTO_Broadleaf_2__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 173
+    },
+    {
+      "id": "PROTO_Broadleaf_2__upper_stem",
+      "vertices": 120,
+      "triangles": 236,
+      "linked_users": 173
+    },
+    {
+      "id": "PROTO_Broadleaf_2__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 173
+    },
+    {
+      "id": "PROTO_Broadleaf_2__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 173
+    },
+    {
+      "id": "PROTO_Broadleaf_2__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 173
+    },
+    {
+      "id": "PROTO_Broadleaf_2__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 173
+    },
+    {
+      "id": "PROTO_Broadleaf_6__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 189
+    },
+    {
+      "id": "PROTO_Broadleaf_6__upper_stem",
+      "vertices": 130,
+      "triangles": 256,
+      "linked_users": 189
+    },
+    {
+      "id": "PROTO_Broadleaf_6__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 189
+    },
+    {
+      "id": "PROTO_Broadleaf_6__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 189
+    },
+    {
+      "id": "PROTO_Broadleaf_6__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 189
+    },
+    {
+      "id": "PROTO_Broadleaf_6__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 189
+    },
+    {
+      "id": "PROTO_Broadleaf_7__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 204
+    },
+    {
+      "id": "PROTO_Broadleaf_7__upper_stem",
+      "vertices": 120,
+      "triangles": 236,
+      "linked_users": 204
+    },
+    {
+      "id": "PROTO_Broadleaf_7__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 204
+    },
+    {
+      "id": "PROTO_Broadleaf_7__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 204
+    },
+    {
+      "id": "PROTO_Broadleaf_7__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 204
+    },
+    {
+      "id": "PROTO_Broadleaf_7__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 204
+    },
+    {
+      "id": "PROTO_Broadleaf_1__trunk_collider",
+      "vertices": 30,
+      "triangles": 56,
+      "linked_users": 163
+    },
+    {
+      "id": "PROTO_Broadleaf_1__upper_stem",
+      "vertices": 130,
+      "triangles": 256,
+      "linked_users": 163
+    },
+    {
+      "id": "PROTO_Broadleaf_1__root_collar",
+      "vertices": 70,
+      "triangles": 120,
+      "linked_users": 163
+    },
+    {
+      "id": "PROTO_Broadleaf_1__branches",
+      "vertices": 1482,
+      "triangles": 2508,
+      "linked_users": 163
+    },
+    {
+      "id": "PROTO_Broadleaf_1__twigs",
+      "vertices": 1520,
+      "triangles": 2432,
+      "linked_users": 163
+    },
+    {
+      "id": "PROTO_Broadleaf_1__articulated_leaves",
+      "vertices": 18392,
+      "triangles": 20064,
+      "linked_users": 163
+    },
+    {
+      "id": "PROTO_Limestone_8__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 39
+    },
+    {
+      "id": "PROTO_Limestone_4__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 59
+    },
+    {
+      "id": "PROTO_Limestone_6__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 47
+    },
+    {
+      "id": "PROTO_Limestone_7__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 48
+    },
+    {
+      "id": "PROTO_Limestone_0__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 49
+    },
+    {
+      "id": "PROTO_Limestone_1__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 58
+    },
+    {
+      "id": "PROTO_Limestone_3__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 37
+    },
+    {
+      "id": "PROTO_CoastalShrub_0__shrub_branches",
+      "vertices": 144,
+      "triangles": 240,
+      "linked_users": 255
+    },
+    {
+      "id": "PROTO_CoastalShrub_0__shrub_leaves",
+      "vertices": 1584,
+      "triangles": 1728,
+      "linked_users": 255
+    },
+    {
+      "id": "PROTO_CoastalShrub_1__shrub_branches",
+      "vertices": 144,
+      "triangles": 240,
+      "linked_users": 290
+    },
+    {
+      "id": "PROTO_CoastalShrub_1__shrub_leaves",
+      "vertices": 1584,
+      "triangles": 1728,
+      "linked_users": 290
+    },
+    {
+      "id": "PROTO_CoastalShrub_2__shrub_branches",
+      "vertices": 144,
+      "triangles": 240,
+      "linked_users": 256
+    },
+    {
+      "id": "PROTO_CoastalShrub_2__shrub_leaves",
+      "vertices": 1584,
+      "triangles": 1728,
+      "linked_users": 256
+    },
+    {
+      "id": "PROTO_Fern_1__fern_stems",
+      "vertices": 770,
+      "triangles": 1232,
+      "linked_users": 135
+    },
+    {
+      "id": "PROTO_Fern_1__fern_leaflets",
+      "vertices": 3146,
+      "triangles": 3432,
+      "linked_users": 135
+    },
+    {
+      "id": "PROTO_Fern_0__fern_stems",
+      "vertices": 770,
+      "triangles": 1232,
+      "linked_users": 159
+    },
+    {
+      "id": "PROTO_Fern_0__fern_leaflets",
+      "vertices": 3146,
+      "triangles": 3432,
+      "linked_users": 159
+    },
+    {
+      "id": "PROTO_Fern_2__fern_stems",
+      "vertices": 770,
+      "triangles": 1232,
+      "linked_users": 165
+    },
+    {
+      "id": "PROTO_Fern_2__fern_leaflets",
+      "vertices": 3146,
+      "triangles": 3432,
+      "linked_users": 165
+    },
+    {
+      "id": "PROTO_Limestone_5__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 41
+    },
+    {
+      "id": "PROTO_Limestone_2__weathered_limestone",
+      "vertices": 727,
+      "triangles": 283,
+      "linked_users": 41
+    },
+    {
+      "id": "Shared cylinder ('Quay ladder brushed galvanized steel', 10)",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 165
+    },
+    {
+      "id": "Shared cube Quay ladder brushed galvanized steel",
+      "vertices": 8,
+      "triangles": 12,
+      "linked_users": 10
+    },
+    {
+      "id": "Shared cylinder ('Quay fender hanging rope', 10)",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 10
+    },
+    {
+      "id": "Shared cylinder ('Quay hanging rubber fenders', 10)",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 10
+    },
+    {
+      "id": "Shared cylinder ('Quay ladder brushed galvanized steel', 10).001",
+      "vertices": 20,
+      "triangles": 36,
+      "linked_users": 33
+    }
+  ],
+  "geometry_issues": []
+}

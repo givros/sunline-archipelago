@@ -1,0 +1,179 @@
+{
+  "schema": "sunline-render-profile-1",
+  "renderer": "Three.js WebGPURenderer",
+  "version": "0.186.1",
+  "typescript": "5.9.3",
+  "vite": "8.3.3",
+  "backend": "WebGPU required; no silent WebGL fallback",
+  "device": "One explicitly acquired adapter/device, requested timestamp-query only when supported",
+  "units": "meters",
+  "sourceAxes": "Blender X east, Y north, Z up",
+  "runtimeAxes": "X east, Y up, Z south; preserved source root rotated -90 degrees around X",
+  "quality": {
+    "pixelRatio": "native devicePixelRatio; never capped",
+    "antialias": "4x MSAA",
+    "colorSpace": "sRGB output once",
+    "toneMapping": "Blender OCIO AgX Medium High Contrast,65³ log-input LUT generated from the installed Blender5.1 configuration",
+    "exposure": 1.0717734625362931,
+    "geometry": "Every evaluated source triangle, exact source vertex/corner normals/UV/color attributes",
+    "attributePrecision": "Float32, matching evaluated Blender mesh arrays",
+    "textures": "Original source image bytes, full resolution, sRGB color maps",
+    "compression": "None; scene binary and HTTP payloads uncompressed",
+    "qualityReduction": "None; no decimation, LOD, resolution adaptation or distant-object hiding"
+  },
+  "passes": [
+    {
+      "id": "sun-shadow",
+      "type": "directional PCF shadow map",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "contributors": "All source solid geometry including moving trains; no simplified shadow geometry",
+      "coverage": "1120m overview, 190m moving local walking frustum, same fixed shadow texture resolution",
+      "update": "Once per complete frame, shared by reflection and beauty with identical caster transforms"
+    },
+    {
+      "id": "ocean-reflection",
+      "type": "camera-mirrored scene with oblique sea clipping",
+      "resolution": "full native framebuffer dimensions",
+      "format": "RGBA16F",
+      "samples": 4,
+      "contributors": "Complete source scene including offscreen objects and animated trains, only ocean optical material excluded to prevent feedback"
+    },
+    {
+      "id": "contact-depth",
+      "type": "full source normal/depth capture",
+      "resolution": "full native framebuffer",
+      "format": "RGBA16F normal + Float32 single-sample depth",
+      "contributors": "All source geometry; no simplified proxies"
+    },
+    {
+      "id": "contact-occlusion",
+      "type": "GTAO",
+      "resolution": "full native framebuffer",
+      "radiusMetres": 2.2,
+      "samples": 16,
+      "temporalFiltering": false,
+      "ownership": "Only indirect diffuse/specular, never direct sunlight; primary camera only"
+    },
+    {
+      "id": "contact-filter",
+      "type": "edge-aware depth/normal-guided denoise",
+      "resolution": "full native framebuffer",
+      "radiusPixels": 3
+    },
+    {
+      "id": "beauty",
+      "type": "PBR direct + environment + hemispheric fill",
+      "resolution": "full native framebuffer dimensions",
+      "samples": 4,
+      "output": "Blender OCIO display transform with exactly one final sRGB encoding"
+    }
+  ],
+  "lighting": {
+    "sun": {
+      "name": "Late morning tropical sun",
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "energy": 2.4000000953674316,
+      "direction": [
+        -0.5292807817459106,
+        -0.22285939753055573,
+        0.8186547756195068
+      ],
+      "angular_diameter": 0.11999999731779099
+    },
+    "environment": "TSL analytic daylight sky, PMREM with solar disc excluded to prevent doubled direct light",
+    "environmentIntensity": 0.1,
+    "hemisphereIntensity": 0.28,
+    "ownership": "Direct sun once, sky radiance once, deliberate low hemispheric fill. No baked lightmaps or opaque lighting caches."
+  },
+  "water": {
+    "role": "ocean",
+    "sourcePreservation": "Original full-resolution bathymetry image, source ocean plane/UVs and distant horizon plane, source base colors/roughness/metalness. Static optical ripple normals and scene-reflection translation are declared separately.",
+    "surface": "Distance-filtered static fine optical ripple normals, source roughness and metalness, full-resolution Fresnel scene reflection",
+    "motion": "No environmental wave animation requested; trains alone advance",
+    "scope": "Above-water appearance and surface swimming; underwater volumetric view not implemented"
+  },
+  "sharing": "Global exact geometry/material instances for repeated parts, power-of-two matrix-buffer capacities with exact visible instance counts, static full-detail material groups in 220m cells, and full-detail material merging within each independent carriage, bogie and drawbar root. Positions/normals/UV/color attributes, semantic IDs and triangle ranges are preserved. No BatchedMesh or decimation.",
+  "cacheDependencies": {
+    "source": "SHA256 of final blend and binary export",
+    "geometry": "SHA256 of full positions, corner normals, UVs, vertex colors, groups and material slots",
+    "skyPMREM": "Sun direction and atmosphere parameters, fixed for this scene",
+    "shadows": "Refreshed during rendering; no stale cached shadow assumption",
+    "reflections": "Refreshed for every camera and moving-object frame at full framebuffer resolution"
+  },
+  "navigation": {
+    "eyeHeight": 1.72,
+    "radius": 0.32,
+    "maxStep": 0.5,
+    "slopeLimitDegrees": 45,
+    "gravity": 18,
+    "walkSpeed": 3.8,
+    "runSpeed": 8.3,
+    "swimSpeed": 1.9,
+    "fastSwimSpeed": 3,
+    "swimEyeAboveSea": 0.65,
+    "maxMovementSubstep": 0.16,
+    "support": "layer-aware exported triangle grid",
+    "blocking": "Principal-axis oriented bounds of connected source components; exact capsule/triangle narrow phase for connected nonconvex rail meshes and graded joists; closed-house footprints; walkable deck/stair meshes support their own treads."
+  },
+  "temporal": "Wall-clock train animation; controller dt capped at 250ms and subdivided into movements of at most 0.16m. At most one submitted GPU frame in flight, with the same complete render passes. Uncapped frame intervals recorded. Focus loss clears movement keys.",
+  "lifecycle": "Renderer, geometry/materials, source/color textures, shadow/reflection/contact targets, AO/filter nodes and environment resources are owned and disposed; no automatic retry loop.",
+  "runtimeEvidence": "runtime_validation.json contains actual final-scene results separately from this chosen configuration",
+  "colorTransform": {
+    "generator": "OpenColorIO 2.5.2",
+    "source": "Blender5.1 config.ocio",
+    "configuration_sha256": "7b307bf0b420ca001569b09ee4da046fee8ffd61c5ffc831418ad07a4ecbe2f9",
+    "input": "Linear Rec.709",
+    "view": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "display": "sRGB",
+    "storedOutput": "linear-sRGB; browser applies the sRGB encoding once",
+    "lutSize": 65,
+    "inputLog2Range": [
+      -12.5,
+      7.5
+    ],
+    "format": "RGBA Float32; R axis varies fastest",
+    "bytes": 4394000,
+    "sha256": "fe60c4ce49519115cbd940eb4918edb7267c9d235a332acac66b7a6a388f2c4e",
+    "gpuStorage": "RGBA16F, trilinear filtering; independently measured error in color-transform-validation.json"
+  },
+  "sourceIdentity": {
+    "sourceFile": "Tropical_Archipelago.blend",
+    "sourceSha256": "9410664a7ed7b1ef2edbd69ef13d3abbd67b35c47a5ce1513245d6715034063f",
+    "sceneBinarySha256": "36bba42e727bd53ebc80e118f79d2276d9edfc718614f79abd09c51e96812abc",
+    "textureFiles": [
+      {
+        "path": "textures/17_ocean_bathymetry_png.png",
+        "sha256": "d512fbe84471e56a1ce8db2e4f51ca7b415360a3ada276132f49c6db2b1ccb0f",
+        "bytes": 10227224,
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    ],
+    "objects": 33758,
+    "triangles": 49984497,
+    "dynamicRoots": 54,
+    "referenceCamera": {
+      "position": [
+        0,
+        -900,
+        1180
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "ortho_scale": 965
+    }
+  }
+}
